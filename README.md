@@ -1,1 +1,1 @@
-# BitStash-Android-Wallet
+# BitStash Android Wallet
