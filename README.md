@@ -60,9 +60,7 @@ When submitting to add a new token, you must be affiliated and apart of the proj
 ## How to contribute, test or use for your own project?
 
 The best way to submit feedback and report bugs is to [open a GitHub issue](https://github.com/bitstashco/BitStash-Android-Wallet/issues/new).
-
-
-This project is built with Android Studio using Java and Kolten.
+This project was built with Android Studio using Java and Kolten.
 
 1. Install Android Stuido
 2. Install Android NDK
