@@ -82,3 +82,7 @@ Fork, clone, or download this repo and launch in android studio. We are working 
 - Open to user submitted intergrations and improvements
 
 Have you improved the code or included a new feature? Create a pull request and be a part of the BitStash Wallet development today!
+
+
+## Send us a donation!
+ETH Address: 0x016251f63dc96839ebcd92f6806d81bf1c90a609
