@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.spekframework.spek2:spek-dsl-jvm:2.0.6@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spekframework.spek2/spek-dsl-jvm/2.0.6/4d6c2c548143939beb89752252b2e649a30e35a8/spek-dsl-jvm-2.0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spekframework.spek2/spek-dsl-jvm/2.0.6/bc66c06c73a2f0545c2400c55c47020930f88da7/spek-dsl-jvm-2.0.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spekframework.spek2/spek-dsl-jvm/2.0.6/4ebf8831bdb5345c7821dba42b799f06e9b540df/spek-dsl-jvm-2.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

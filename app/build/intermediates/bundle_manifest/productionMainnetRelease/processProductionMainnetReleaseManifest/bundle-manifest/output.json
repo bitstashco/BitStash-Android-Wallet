@@ -1,0 +1,1 @@
+[{"outputType":{"type":"BUNDLE_MANIFEST"},"apkData":{"type":"MAIN","splits":[],"versionCode":1,"versionName":"0.0.1","enabled":true,"outputFile":"app-productionMainnet-release.apk","fullName":"productionMainnetRelease","baseName":"productionMainnet-release"},"path":"AndroidManifest.xml","properties":{"packageId":"io.horizontalsystems.bankwallet","split":"","minSdkVersion":"23"}}]

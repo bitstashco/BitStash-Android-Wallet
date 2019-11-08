@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="AccountType_Binance">Binance</string>
+    <string name="AccountType_Eos">EOS</string>
+    <string name="AccountType_Unstoppable">Unstoppable</string>
+    <string name="AddCoin_CreateKey">Erstellen</string>
+    <string name="AddCoin_Description">Sie haben kein Wallet, das %1$s speichern kann. Die App kann ein neues Wallet für Sie anlegen. Nutzen Sie den \"Erstellen Button\" unten, um ein neues Wallet anzulegen.\n\nSie können das Wallet für die folgenden Coins verwenden: %2$s.\n\nSie können auch den bestehenden %3$s Wallet-Schlüssel nehmen, wenn Sie einen besitzen. Nutzen sie den Button \"Wiederherstellen\" dafür.</string>
+    <string name="AddCoin_RestoreKey">Wiederherstellen</string>
+    <string name="AddCoin_Title">%s hinzufügen</string>
+    <string name="Alert_Cancel">Abbrechen</string>
+    <string name="Alert_Close">Schließen</string>
+    <string name="Alert_Copied">Kopiert</string>
+    <string name="Alert_Copy">Kopieren</string>
+    <string name="Alert_CustomKeyboardIsUsed">Du verwendest eine Fremdanbieter-Tastatur. Du musst Standard-Tastatur verwenden.</string>
+    <string name="Alert_KeysInvalidatedDescription">Deine verschlüsselten Daten wurden kürzlich ungültig gemacht, weil dein Android-Sperrbildschirm geändert wurde</string>
+    <string name="Alert_KeysInvalidatedTitle">Android Keystore Fehler</string>
+    <string name="Alert_NoDeviceLockDescription">Richten Sie ein Sperrbildschirm auf diesem Gerät weiter. Gehen Sie zu \"Einstellungen\" </string>
+    <string name="Alert_Ok">OK</string>
+    <string name="Alert_Share">Teilen</string>
+    <string name="Alert_Success">Erfolgreich</string>
+    <string name="Alert_TitleWarning">Warnung</string>
+    <string name="App_Name">BitStash Wallet</string>
+    <string name="Backup_Button_Confirm">Bestätigen</string>
+    <string name="Backup_Button_Next">Weiter</string>
+    <string name="Backup_Button_ShowKey">Schlüssel anzeigen</string>
+    <string name="Backup_Button_Submit">Abschicken</string>
+    <string name="Backup_Confirmation_CheckTitle">Prüfen…</string>
+    <string name="Backup_Confirmation_DeleteAppWarn">Ich stimme zu, dass bei einer Verschiebung oder Entfernung dieser App, der Zugang zu meinem Walletkonto nur bei Verwendung den Offlineschlüsseln erfolgt werden muss.</string>
+    <string name="Backup_Confirmation_Description">Geben Sie die Worte Ihres privaten Schlüssels ein.</string>
+    <string name="Backup_Confirmation_Disclaimer">Ich stimme zu, dass Entwickler dieser App nicht für unbeabsichtigte Fehler oder Probleme verantwortlich gemacht werden können, die bei der Verwendung dieser App auftreten können.</string>
+    <string name="Backup_Confirmation_FailureAlertText">Die Wörter stimmen nicht überein</string>
+    <string name="Backup_Confirmation_LockAppWarn">Ich stimme zu, dass das Ändern der PIN oder das Löschen von App-Daten in Android-Einstellungen den Offlineschlüssel vom Gerät löschen. Ich muss meinen Geheimschlüssel erneut eingeben, um den Zugriff auf meine Wallet wiederherzustellen.</string>
+    <string name="Backup_Confirmation_SecretKey">Ich stimme zu, dass ich allein Inhaber eines privaten 12-Wort Offlineschlüssels bin, der sicher auf meinem Telefon gespeichert wird und mir ermöglicht, Geld auf meinem Wallet zu steuern.</string>
+    <string name="Backup_DisplayTitle">Privater Schlüssel</string>
+    <string name="Backup_Eos_AccountName">Account Name</string>
+    <string name="Backup_Eos_ActivePrivateKey">Privater Schlüssel</string>
+    <string name="Backup_Eos_Warning">Den Schlüssel mit \"Kopieren\" zu kopieren, ist riskant, da Sie womöglich Zwischenablage-Management-Apps oder andere Apps nutzen, die Zugriff auf die Daten in der Zwischenablage haben.</string>
+    <string name="Backup_Intro_BackupNow">Backup</string>
+    <string name="Backup_Intro_Later">Später</string>
+    <string name="Backup_Intro_Subtitle">Der private Schlüssel, der als nächstes angezeigt wird, ist die einzige Möglichkeit, Ihr Guthaben wiederherzustellen, wenn Ihr Telefon verloren geht, gestohlen wird oder beschädigt wird. \n\nAchten Sie darauf, dass niemand Ihren Bildschirm sieht.\n\nDie Coins, die von diesem Schlüssel kontrolliert werden: %s</string>
+    <string name="Backup_Intro_Title">Sicherung</string>
+    <string name="Backup_Intro_TitleShow">Schlüssel anzeigen</string>
+    <string name="Backup_Words_Title">Offlineschlüssel</string>
+    <string name="Balance_AddCoins">Coins hinzufügen</string>
+    <string name="Balance_Deposit">Anfordern</string>
+    <string name="Balance_RatePerCoin">%s pro %s</string>
+    <string name="Balance_Send">Senden</string>
+    <string name="Balance_Sort_24hPriceChange">24h Preis (%)</string>
+    <string name="Balance_Sort_Az">Name</string>
+    <string name="Balance_Sort_Balance">Wert</string>
+    <string name="Balance_Sort_PopupTitle">Sortieren nach</string>
+    <string name="Balance_SyncedUntil">bis: %s</string>
+    <string name="Balance_Syncing">Synchronisieren…</string>
+    <string name="Balance_Title">Guthaben</string>
+    <string name="Button_Back">Zurück</string>
+    <string name="Button_Cancel">Abbrechen</string>
+    <string name="Button_Close">Schließen</string>
+    <string name="Button_Create">Erstellen</string>
+    <string name="Button_Ok">OK</string>
+    <string name="Button_Share">Teilen</string>
+    <string name="Charts_Error_NotAvailable">Diagramm nicht verfügbar</string>
+    <string name="Charts_MarketCap">Mkt. Kap.</string>
+    <string name="Charts_MarketCap_Billion">Mrd.</string>
+    <string name="Charts_MarketCap_Million">Mill.</string>
+    <string name="Charts_MarketCap_Thousand">Tsd.</string>
+    <string name="Charts_MarketCap_Trillion">Trill.</string>
+    <string name="Charts_Rate_High">Hoch</string>
+    <string name="Charts_Rate_Low">Niedrig</string>
+    <string name="Charts_TimeDuration_Day">1T</string>
+    <string name="Charts_TimeDuration_HalfYear">6M</string>
+    <string name="Charts_TimeDuration_Month">1M</string>
+    <string name="Charts_TimeDuration_Quartal">3M</string>
+    <string name="Charts_TimeDuration_Week">7D</string>
+    <string name="Charts_TimeDuration_Year">1J</string>
+    <string name="Charts_Title">%s Rate</string>
+    <string name="Charts_Volume">Lautstärke</string>
+    <string name="CoinOption_AfterNovember">Nach November 2019</string>
+    <string name="CoinOption_BeforeNovember">Vor November 2019</string>
+    <string name="CoinOption_Fast">Schnell</string>
+    <string name="CoinOption_Fast_Text">Schnell: Stellt Ihre vergangenen Transaktionen über einen sicheren Drittserver her. Für Nutzer, die Transaktionen mit großen Summen haben, könnte diese Methode Datenschutzrisiken bergen.</string>
+    <string name="CoinOption_MorePrivate">1–12 Stunden (mehr privat)</string>
+    <string name="CoinOption_Recommended">0–2 Stunden (empfohlen)</string>
+    <string name="CoinOption_Slow">Langsam</string>
+    <string name="CoinOption_Slow_Text">Langsam: Stellt Ihre vergangenen Transaktionen direkt aus der Blockchain her. Mehr Datenschutz, aber sehr langsam. Wenn es zu lange dauert, gehen Sie in den Einstellungen zu Wallets verwalten und löschen Sie den Eintrag Unstoppable. Wiederholen Sie den Prozess mit der Option \"Schnell\".</string>
+    <string name="CoinOption_TimePeriod">Wählen Sie den Zeitraum, in dem Sie Ihr Wallet im Unstoppable Wallet das erste Mal erstellt haben.</string>
+    <string name="CoinOption_Title">Optionen Wiederherstellen</string>
+    <string name="CoinOption_bip44">BIP-44</string>
+    <string name="CoinOption_bip49">BIP-49</string>
+    <string name="Create_Description">Wählen Sie eine Kryptowährung. Sie können später weitere Kryptowährungen hinzufügen.</string>
+    <string name="Create_Title">Wallet Erstellen</string>
+    <string name="Deposit_Share">Teilen</string>
+    <string name="Deposit_Title">%s Anfordern</string>
+    <string name="Deposit_Your_Account">Dein Konto</string>
+    <string name="Deposit_Your_Address">Deine Adresse</string>
+    <string name="Duration_Hours">%d Std.</string>
+    <string name="Duration_Minutes">%d Min.</string>
+    <string name="Duration_Seconds">%d Sek.</string>
+    <string name="Duration_Within">Innerhalb %s</string>
+    <string name="Duration_instant">Sofort</string>
+    <string name="EditPin_NewPinInfo">Neue Code</string>
+    <string name="EditPin_Title">Code bearbeiten</string>
+    <string name="EditPin_UnlockInfo">Aktuelle Code </string>
+    <string name="Eos_Backend_Error_AccountNotExist">Der Zielkonto existiert nicht</string>
+    <string name="Eos_Backend_Error_InsufficientRam">Ihr EOS-Konto hat nicht genügend RAM, um diesen Token zu senden. Sie müssen den RAM-Anteil erhöhen, um fortzufahren.</string>
+    <string name="Eos_Backend_Error_SelfTransfer">Token kann nicht auf das eigene Konto übertragen werden</string>
+    <string name="Error">Fehler</string>
+    <string name="Error_UnsupportedBlockchain">Nicht unterstützte Währung</string>
+    <string name="Fingerprint_DialogTitle">Anmeldung per Fingerabdruck</string>
+    <string name="Fingerprint_EnterPin">Code</string>
+    <string name="Fingerprint_Hint">Touchsensor</string>
+    <string name="Fingerprint_NotRecognized">Fingerabdruck nicht erkannt. Bitte wiederholen.</string>
+    <string name="Fingerprint_Success">Erfolgreich!</string>
+    <string name="FullInfoEth_Amount">Betrag</string>
+    <string name="FullInfoEth_Nonce">Nonce</string>
+    <string name="FullInfo_Block">Block</string>
+    <string name="FullInfo_Bytes">Bytes</string>
+    <string name="FullInfo_Confirmations">Bestätigungen</string>
+    <string name="FullInfo_Contract">Vertrag</string>
+    <string name="FullInfo_CpuUsage">CPU Usage</string>
+    <string name="FullInfo_Error_ChangeSource">Quelle ändern</string>
+    <string name="FullInfo_Error_Retry">Wiederholen</string>
+    <string name="FullInfo_Error_Subtitle">Offline</string>
+    <string name="FullInfo_Fee">Gebühr</string>
+    <string name="FullInfo_FeePerByte">Gebühr pro byte</string>
+    <string name="FullInfo_FeeRate">Gebührenrate</string>
+    <string name="FullInfo_From">Von</string>
+    <string name="FullInfo_GasLimit">Gas Limit</string>
+    <string name="FullInfo_GasPrice">Gas Price</string>
+    <string name="FullInfo_GasUsed">Gas Used</string>
+    <string name="FullInfo_Id">ID</string>
+    <string name="FullInfo_Inputs">Eingänge</string>
+    <string name="FullInfo_Memo">Memo</string>
+    <string name="FullInfo_NetUsage">Net Usage</string>
+    <string name="FullInfo_NoAddress">Leere Adresse</string>
+    <string name="FullInfo_Outputs">Ausgänge</string>
+    <string name="FullInfo_Rate">Rate</string>
+    <string name="FullInfo_SatByte">sat/B</string>
+    <string name="FullInfo_Size">Größe</string>
+    <string name="FullInfo_Source">Quelle</string>
+    <string name="FullInfo_Source_Offline">Offline</string>
+    <string name="FullInfo_Source_Online">Online</string>
+    <string name="FullInfo_Source_Title">Quelle</string>
+    <string name="FullInfo_Status">Status</string>
+    <string name="FullInfo_SubtitleInputs">Eingänge</string>
+    <string name="FullInfo_SubtitleOutputs">Ausgänge</string>
+    <string name="FullInfo_Time">Zeit</string>
+    <string name="FullInfo_Title">Transaktion</string>
+    <string name="FullInfo_To">An</string>
+    <string name="FullInfo_TotalInput">Insgesamt Eingang</string>
+    <string name="FullInfo_TotalOutput">Insgesamte Ausgänge</string>
+    <string name="Hud_Network_Issue">Netzwerkprobleme. Bitte noch einmal versuchen.</string>
+    <string name="Hud_Text_Copied">Kopiert</string>
+    <string name="Hud_Text_Done">Fertig</string>
+    <string name="Hud_Text_Error">Fehler</string>
+    <string name="Hud_Text_InvalidPinError">Falscher Code</string>
+    <string name="Hud_Text_NoInternet">Kein Internet</string>
+    <string name="Hud_Text_Success">Erfolgreich</string>
+    <string name="Hud_Text_Unlock">Entsperren</string>
+    <string name="ManageCoins_AddCoin_Text">Damit erzeugen Sie ein neues Wallet für folgende Coins: %s</string>
+    <string name="ManageCoins_AddCoin_Title">Wallet hinzufügen</string>
+    <string name="ManageCoins_EOSAlert_CreateButton">Im Moment kann das Wallet keine neuen EOS-Wallet-Accounts anlegen. Sie können nur bestehende wiederherstellen.</string>
+    <string name="ManageCoins_save">Speichern</string>
+    <string name="ManageCoins_title">Coins</string>
+    <string name="ManageKeys_Backup">Sicherung</string>
+    <string name="ManageKeys_Create">Erstellen</string>
+    <string name="ManageKeys_Delete">Löschen</string>
+    <string name="ManageKeys_Delete_Alert">Sie müssen den privaten Schlüssel für dieses Wallet sichern, bevor Sie es von diesem Telefon löschen können.</string>
+    <string name="ManageKeys_Delete_Alert_Title">Backup erforderlich</string>
+    <string name="ManageKeys_Delete_ConfirmationDisable">Coins, die entfernt werden: %s</string>
+    <string name="ManageKeys_Delete_ConfirmationLose">Wenn Sie den privaten Schlüssel für dieses Wallet nicht gesichert haben, verlieren Sie den Zugang zu Ihrem Guthaben.</string>
+    <string name="ManageKeys_Delete_ConfirmationRemove">Damit wird das %s Wallet von Ihrem Gerät gelöscht.</string>
+    <string name="ManageKeys_Delete_FromPhone">Von Telefon löschen</string>
+    <string name="ManageKeys_Delete_Title">Wallet löschen</string>
+    <string name="ManageKeys_Description">Aktive Wallets sind hervorgehoben. Diese sind für verschiedene Kryptowährungen verantwortlich.
+\n\n Sie sollten für jedes hervorgehobene Wallet den privaten Schlüssel sichern. Dieser Schlüssel ist die einzige Möglichkeit, Ihr Guthaben wiederherzustellen, wenn Ihr Telefon verloren geht, gestohlen wird oder kaputt geht.</string>
+    <string name="ManageKeys_Restore">Wiederherstellen</string>
+    <string name="ManageKeys_Show">Anzeigen</string>
+    <string name="ManageKeys_Title">Wallets verwalten</string>
+    <string name="NotAvailable">N/A</string>
+    <string name="Notification_Down">Runter</string>
+    <string name="Notification_Notifications">Benachrichtigung: %s</string>
+    <string name="Notification_Up">Hoch</string>
+    <string name="OSPin_Confirm_Desciption">Diese App erfordert, dass Zugangsperre (Bildschirmsperre) aktiviert ist.
+\n\nSie können dies in den Android-Einstellungen vornehmen.
+\n\nBitte beachten Sie, wenn Sie PIN auf dem OS ausgeschaltete haben, wurden die Sicherheitsmaßnahmen im Safe Storage Ihres Telefons für vorher gespeicherte Daten ungültig. Sie müssen Ihre Wallet-Schlüssel wiederherstellen, um an Ihr Wallet zu gelangen.</string>
+    <string name="OSPin_Confirm_Title">Telefon PIN</string>
+    <string name="OSPin_Prompt_Desciption">Diese App benötigt die PIN Ihres Telefons, um sensible Daten von Ihrer Wallet in Android-sicherer Speicherung zu halten und nicht in der App selbst.</string>
+    <string name="Receive_Alert_NotBackedUp_Button">Sicherung</string>
+    <string name="Receive_Alert_NotBackedUp_Description">Sie müssen das %1$s Wallet sichern, bevor Sie %2$s erhalten können.</string>
+    <string name="Receive_Alert_NotBackedUp_Title">Backup erforderlich</string>
+    <string name="Restore_Description">Um ein bestehendes Wallet wiederherzustellen, müssen Sie einen geheimen Schlüssel für das Wallet eingeben. \n\nSobald Sie ein Wallet wiederhergestellt haben, können Sie andere Wallete über den Abschnitt Wallet Manager in den Sicherheitseinstellungen der App wiederherstellen.</string>
+    <string name="Restore_EosAccountIncorrect">Ungültiger Account</string>
+    <string name="Restore_EosAccountName">Account Name</string>
+    <string name="Restore_EosActivePrivateKey">Active Private Key</string>
+    <string name="Restore_EosKeyIncorrect">Falscher Schlüssel</string>
+    <string name="Restore_RestoreFailed">Fehler beim Wiederherstellen des Wallet</string>
+    <string name="Restore_Title">Wiederherstellen</string>
+    <string name="Restore_ValidationFailed">Falscher Schlüssel</string>
+    <string name="Send_Button_Max">Max.</string>
+    <string name="Send_Button_Next">Weiter</string>
+    <string name="Send_Button_Paste">Einfügen</string>
+    <string name="Send_Confirmation_Eos_HintAccount">Account</string>
+    <string name="Send_Confirmation_EstimateTime">Geschätzte Zeit:</string>
+    <string name="Send_Confirmation_HintMemo">Memo:</string>
+    <string name="Send_Confirmation_Send_Button">Senden</string>
+    <string name="Send_Confirmation_Title">Bestätigen</string>
+    <string name="Send_Confirmation_To">An: </string>
+    <string name="Send_Confirmation_Total">Insgesamt:</string>
+    <string name="Send_DialogDuration">Dauer:</string>
+    <string name="Send_DialogFee">Gebühr:</string>
+    <string name="Send_DialogMemoHint">Memo</string>
+    <string name="Send_DialogProceed">Fortfahren</string>
+    <string name="Send_DialogSpeed">Transaktionsgeschwindigkeit:</string>
+    <string name="Send_DialogTitle">Bestätigen</string>
+    <string name="Send_DialogTotal">Insgesamt:</string>
+    <string name="Send_ERC_Alert">Transaktionsgebühren für %s (ERC20) in Ethereum bezahlt. Du brauchst %s ETH.</string>
+    <string name="Send_Error_BalanceAmount">Guthaben %s</string>
+    <string name="Send_Error_IncorrectAddress">Falscher Adresse</string>
+    <string name="Send_Error_InsufficientBalance">Nicht genug Geldmittel.</string>
+    <string name="Send_Error_InvalidAddress">Eingegebene Adresse scheint ungültig zu sein. Bitte überprüfen Sie und versuchen es erneut!</string>
+    <string name="Send_Fee">Gebühr:</string>
+    <string name="Send_Hint_Address">Adresse</string>
+    <string name="Send_Hint_Amount">Betrag</string>
+    <string name="Send_ScanQrCode">QR-Code Scannen</string>
+    <string name="Send_Sending">Wird gesendet</string>
+    <string name="Send_Success">\u2713 Gesendet</string>
+    <string name="Send_Title">%s senden</string>
+    <string name="Send_Token_InsufficientFeeAlert">Transaktionsgebühren für %s (%s) in %s bezahlt. Du brauchst %s.</string>
+    <string name="Send_TxSpeed_High">Hoch</string>
+    <string name="Send_TxSpeed_Low">Niedrig</string>
+    <string name="Send_TxSpeed_Medium">Mittel</string>
+    <string name="SetPin_ConfirmInfo">Bestätigen</string>
+    <string name="SetPin_ErrorFailedToSavePin">Beim Speichern Ihren Code ist leider ein Fehler aufgetreten. Bitte versuchen es erneut.</string>
+    <string name="SetPin_ErrorPinsDontMatch">Code stimmt nicht überein. Bitte noch einmal versuchen.</string>
+    <string name="SetPin_ErrorShortPin">Gib bitte nur Zahlen ein.</string>
+    <string name="SetPin_Info">Dein Code wird verwendet werden, um deinen Wallet zu entsperren und Geld schicken</string>
+    <string name="SetPin_Success">Lock code wurde erfolgreich gesetzt!</string>
+    <string name="SetPin_Title">Code</string>
+    <string name="SettingsAbout_AppTitle">BitStash Wallet</string>
+    <string name="SettingsAbout_TermsPrivacySubtitle">ANB &amp; Datenschutz:</string>
+    <string name="SettingsAbout_TermsPrivacyText">\n\nDiese Anwendung ist vollständig dezentralisiert. Die Leistung dieser Anwendung hängt nicht von Servern von Drittanbietern oder einem technischen Supportteam ab.
+\n\nDie Anwendung funktioniert überall, solange es Internet gibt. Dieser Wallet oder deren Benutzer können von niemandem blockiert werden.
+\n\nDein Geld wird nur auf Ihrem Telefon gespeichert.
+\n\nDu bist allein für die sichere Aufbewahrung des Offlineschlüssels verantwortlich. Teil deinen Offlineschlüssel nie mit jemandem. Wenn der Offlineschlüssel verloren geht, gestohlen oder vergessen wird, erhält derjenige, der über deinen Offlineschlüssel verfügt, die Kontrolle über dein Geld.
+\n\nHack dein Telefon nicht, installier keine Anwendungen von inoffiziellen Quellen und gib dein Telefon niemals den anderen. Die Sicherheit  deiner Wallet hängt direkt davon ab.
+\n\nDer gesamte Programmcode dieser Anwendung ist kostenlos und für die Öffentlichkeit zugänglich. Wir haben versucht, die sicherste und gleichzeitig dezentralisierte Wallet zu schaffen, aber es gibt keine Garantie dafür, dass der Anwendungscode fehlerfrei ist. Wir glauben jedoch, dass dieser Wallet in Bezug auf die Sicherheit fast alle heute verfügbare mobile Kryptobörsen deutlich übertrifft.
+\n\nEinige von der Anwendung verwendete öffentliche Daten, wie z. B. Wechselkurse, werden im dezentralen Repository (IPFS) gespeichert</string>
+    <string name="SettingsAbout_Title">Info</string>
+    <string name="SettingsCurrency_Title">Währung</string>
+    <string name="SettingsLanguage_Title">Sprache</string>
+    <string name="SettingsNotifications_DeactivateAll">Alle deaktivieren</string>
+    <string name="SettingsNotifications_Description">Legen Sie einen Preisänderungsalarm für die Coins fest, die Sie beobachten möchten. \n\nSie werden benachrichtigt, wenn die Preisänderung in den letzten 24 die gewählte Grenze übersteigt.</string>
+    <string name="SettingsNotifications_NotificationsDisabledWarning">Die Benachrichtigungen für das BitStash Wallet sind ausgeschaltet. Sie müssen die Benachrichtigungen einschalten und eine Aktualisierung im Hintergrund erlauben, um Benachrichtigungen bei Preisänderungn zu erhalten.</string>
+    <string name="SettingsNotifications_Off">Aus</string>
+    <string name="SettingsNotifications_Title">Benachrichtigungen</string>
+    <string name="SettingsNotifications_TurnOn">In Einstellungen einschalten</string>
+    <string name="SettingsReport_Email">E-Mail</string>
+    <string name="SettingsReport_Telegram">Telegram</string>
+    <string name="SettingsReport_Title">Problem melden</string>
+    <string name="SettingsSecurity_BackupWallet">Wallet sichern</string>
+    <string name="SettingsSecurity_EditPin">Code bearbeiten</string>
+    <string name="SettingsSecurity_EnablePin">Code</string>
+    <string name="SettingsSecurity_Fingerprint">Fingerabdruck</string>
+    <string name="SettingsSecurity_ManageKeys">Wallets verwalten</string>
+    <string name="SettingsShare_Text">BitStash Wallet - eine krypto Wallet, die ich empfehle</string>
+    <string name="SettingsShare_Title">Teilen</string>
+    <string name="Settings_About">Info</string>
+    <string name="Settings_BaseCurrency">Währung</string>
+    <string name="Settings_Error_FingerprintNotEnabled">Fingerabdruck Nicht Aktivieren</string>
+    <string name="Settings_Error_NoFingerprintAddedYet">Fingerabdruck auf diesem Gerät aktiviert nicht. Geh zu Einstellungen </string>
+    <string name="Settings_InfoTitleWithVersion">BitStash Wallet %s</string>
+    <string name="Settings_Language">Sprache</string>
+    <string name="Settings_LightMode">Licht Modus</string>
+    <string name="Settings_ManageCoins">Coins Verwalten</string>
+    <string name="Settings_Notifications">Benachrichtigungen</string>
+    <string name="Settings_Report">Problem melden</string>
+    <string name="Settings_RestoreWallet">Wallet Wiederherstellen</string>
+    <string name="Settings_SecurityCenter">Sicherheit</string>
+    <string name="Settings_ShareThisWallet">Freunden erzählen</string>
+    <string name="Settings_Title">Einstellungen</string>
+    <string name="Timestamp_HoursAgo">Vor %d St</string>
+    <string name="Timestamp_JustNow">gerade eben</string>
+    <string name="Timestamp_MinAgo">Vor %d Min</string>
+    <string name="Timestamp_Today">Heute</string>
+    <string name="Timestamp_Yesterday">Gestern</string>
+    <string name="TransactionInfo_ButtonVerify">Prüfen</string>
+    <string name="TransactionInfo_Fee">Gebühr</string>
+    <string name="TransactionInfo_FootNote">Der Wert dieser Transaktion ist gleich 0, da die Transaktion an Ihre eigene Adresse gesendet wurde</string>
+    <string name="TransactionInfo_From">Von</string>
+    <string name="TransactionInfo_HistoricalRate">Historischer Rate</string>
+    <string name="TransactionInfo_Id">ID</string>
+    <string name="TransactionInfo_Status">Status</string>
+    <string name="TransactionInfo_Status_Confirmed">Bestätigt</string>
+    <string name="TransactionInfo_Status_Pending">Anstehend</string>
+    <string name="TransactionInfo_Time">Zeit</string>
+    <string name="TransactionInfo_Title">Transaktion</string>
+    <string name="TransactionInfo_To">An</string>
+    <string name="Transactions_EmptyList">Transaktionsliste ist leer</string>
+    <string name="Transactions_FilterAll">ALLE</string>
+    <string name="Transactions_Title">Transaktionen</string>
+    <string name="UnlockPin_Error_PinIncorrect">Falsch</string>
+    <string name="UnlockPin_WalletDisabledUntil">Deaktiviert bis: %s </string>
+    <string name="Unlock_Page_EnterYourPin">Code</string>
+    <string name="Wallet">%s wallet</string>
+    <string name="Welcome_CreateWallet">Wallet Erstellen</string>
+    <string name="Welcome_RestoreWallet">Wallet Wiederherstellen</string>
+    <string name="Welcome_Title">Unstoppable</string>
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Zur Startseite"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Nach oben"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Weitere Optionen"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"Fertig"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Alle anzeigen"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"App auswählen"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"AUS"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"AN"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Strg +"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"Löschen"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"Eingabetaste"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Funktionstaste +"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta-Taste +"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Umschalttaste +"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"Leertaste"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym-Taste +"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menütaste +"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"Suchen…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"Suchanfrage löschen"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"Suchanfrage"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"Suche"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"Anfrage senden"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"Sprachsuche"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Teilen mit"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Mit <ns1:g id="APPLICATION_NAME">%s</ns1:g> teilen"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Minimieren"</string>
+    <string msgid="6241458715391513061" name="accessibility_fingerprint_dialog_help_area">"Bereich für die Hilfemeldung"</string>
+    <string msgid="4296851028928624518" name="confirm_device_credential_password">"Passwort nutzen"</string>
+    <string msgid="7497355367608150274" name="default_error_msg">"Unbekannter Fehler"</string>
+    <string msgid="5354590751262189738" name="fingerprint_dialog_touch_sensor">"Fingerabdrucksensor berühren"</string>
+    <string msgid="3976825677335166260" name="fingerprint_error_hw_not_available">"Fingerabdruckhardware nicht verfügbar."</string>
+    <string msgid="1176237289575184578" name="fingerprint_error_hw_not_present">"Dieses Gerät hat keinen Fingerabdrucksensor"</string>
+    <string msgid="1651062876313169162" name="fingerprint_error_lockout">"Zu viele Versuche. Versuche es bitte später noch einmal."</string>
+    <string msgid="3350805046152877040" name="fingerprint_error_no_fingerprints">"Keine Fingerabdrücke erfasst."</string>
+    <string msgid="3421037373085129417" name="fingerprint_error_user_canceled">"Vorgang der Fingerabdruckauthentifizierung vom Nutzer abgebrochen."</string>
+    <string msgid="5491287833813257925" name="fingerprint_not_recognized">"Nicht erkannt"</string>
+    <string msgid="7474799539658018076" name="generic_error_user_canceled">"Authentifizierung vom Nutzer abgebrochen."</string>
+    <string name="leak_canary_analysis_failed">Leak Analyse fehlgeschlagen</string>
+    <string name="leak_canary_class_has_leaked">%1$s hat geleaked</string>
+    <string name="leak_canary_class_has_leaked_retaining">%1$s hat %2$s geleaked</string>
+    <string name="leak_canary_class_no_leak">%1$s was never GCed but no leak found</string>
+    <string name="leak_canary_could_not_save_text">LeakCanary konnte das Ergebnis der Analyse nicht speichern.</string>
+    <string name="leak_canary_delete">Löschen</string>
+    <string name="leak_canary_delete_all">Alle löschen</string>
+    <string name="leak_canary_delete_all_leaks_title">Bist du dir sicher, dass du alle Leaks löschen möchtest?</string>
+    <string name="leak_canary_display_activity_label">Leaks</string>
+    <string name="leak_canary_download_dump">You can download the heap dump via \"Menu > Share Heap Dump\" or \"adb pull %1$s\"</string>
+    <string name="leak_canary_excluded_row">[Ausgeschlossen] %s</string>
+    <string name="leak_canary_failure_report">"Bitte sende diesen Fehler an http://github.com/square/leakcanary\n"</string>
+    <string name="leak_canary_help_detail"><![CDATA[Ein Memory-Leak ist ein Programmierfehler der
+    dafür sorgt, dass deine Anwendung eine Referenz auf ein Objekt hält, das nicht länger benötigt
+    wird. Daraus folgt, dass der Speicher der dem Objekt zugewiesen wurde nicht wieder freigegeben
+    wird, was eventuell zu einem OutOfMemoryError-Absturz führt.<br>
+  <br>Eine Instanz einer Android-Activity wird nicht mehr benötigt, nachdem ihre <i>onDestroy()</i>
+  Methode aufgerufen wurde. Würde man eine Referenz auf diese Activity in einem statischen Feld
+  speichern, dann wird der durch die Activity genutzte Speicher nicht mehr durch den Garbage
+  Collector freigegeben.<br>
+  <br>
+  LeakCanary identifiziert ein Objekt, dass nicht länger benötigt wird und findet die Kette an
+  <font color=\'#9976a8\'>Referenzen</font> die es davon abhält seinen Speicher freizugeben.<br>
+  <br>
+  Um ein Memory-Leak zu beheben, musst du anhand der Kette herausfinden, welche Referenz für das
+  Leak verantwortlich ist, d.h. welche Referenz beim Auftreten des Leaks bereinigt sein soll.
+  LeakCanary hebt <b><u><font color=\'#9976a8\'>Referenzen</font></u></b> die mögliche Ursachen
+  für das Memory-Leak sein könnten mit einer roten Wellenlinie hervor.<br>
+  <br>
+  Tippe auf eine Zeile mit einer Referenz um mehr Details anzuzeigen, tippe noch einmal um die
+  Details zu schließen.
+]]></string>
+    <string name="leak_canary_help_title">Tippe hier, um mehr zu erfahren</string>
+    <string name="leak_canary_leak_excluded">[Ausgeschlossen] %1$s hat geleaked</string>
+    <string name="leak_canary_leak_excluded_retaining">[Ausgeschlossen] %1$s hat %2$s geleaked</string>
+    <string name="leak_canary_leak_list_title">Leaks in %s</string>
+    <string name="leak_canary_no_leak_details">LeakCanary could not find a valid path to GC roots. Download the heap dump and investigate with MAT or YourKit.</string>
+    <string name="leak_canary_notification_analysing">Analyisere Heap Dump</string>
+    <string name="leak_canary_notification_channel">LeakCanary</string>
+    <string name="leak_canary_notification_dumping">Sichere Heap</string>
+    <string name="leak_canary_notification_foreground_text">LeakCanary ist beschäftigt.</string>
+    <string name="leak_canary_notification_message">Für mehr Details, hier klicken</string>
+    <string name="leak_canary_notification_reporting">Sichere LeakCanary Ergebnis</string>
+    <string name="leak_canary_permission_not_granted">Bitte gewähre die Storage Berechtigung, andernfalls werden Memory Leaks nicht erkannt.</string>
+    <string name="leak_canary_permission_notification_text">Hier klicken, um Storage Berechtigung für %s zu aktivieren.</string>
+    <string name="leak_canary_permission_notification_title">Leak erkannt, benötige Berechtigung</string>
+    <string name="leak_canary_result_failure_no_disk_space">Das Analyseergebnis konnte nicht gespeichert werden</string>
+    <string name="leak_canary_result_failure_no_file">Das Analyseergebnis konnte nicht aus dem Speicher geladen werden</string>
+    <string name="leak_canary_result_failure_title">Analysis result failure</string>
+    <string name="leak_canary_share_heap_dump">Heap Dump teilen</string>
+    <string name="leak_canary_share_leak">Info teilen</string>
+    <string name="leak_canary_share_with">Teilen mit…</string>
+    <string name="leak_canary_storage_permission_activity_label">Storage Berechtigung</string>
+    <string name="leak_canary_toast_heap_dump">Sichere den Speicher, die App wird einfrieren. Brrr.</string>
+    <string msgid="730395136688082741" name="search_menu_title">"Suche"</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Mit der Android-Kamera ist leider ein Fehler aufgetreten. Es könnte sein, dass Sie das Gerät neu starten müssen.</string>
+    <string name="zxing_msg_default_status">Positionieren Sie den Barcode innerhalb des Rechteckes.</string>
+</resources>

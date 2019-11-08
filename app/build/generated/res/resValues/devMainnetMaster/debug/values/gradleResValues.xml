@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Automatically generated file. DO NOT MODIFY -->
+
+    <!-- Values from build type: debug -->
+    <string name="etherscanKey" translatable="false">GKNHXT22ED7PRVCKZATFZQD1YI7FK9AAYE</string>
+    <string name="infuraProjectId" translatable="false">4351d832c39c4b4bb159eb72548a180b</string>
+    <string name="infuraSecretKey" translatable="false">816f85bed849497e87f0e083fb1f1c85</string>
+    <string name="is_release" translatable="false">false</string>
+    <!-- Values from default config. -->
+    <string name="localizations" translatable="false">de,en,es,fa,fr,ko,ru,tr,zh</string>
+
+</resources>

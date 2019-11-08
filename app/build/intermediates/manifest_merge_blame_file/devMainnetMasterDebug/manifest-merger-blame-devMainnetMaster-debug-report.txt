@@ -1,0 +1,574 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.horizontalsystems.bankwallet.dev.master"
+4    android:versionCode="1"
+5    android:versionName="0.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:6:5-67
+11-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:7:5-79
+12-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:8:5-66
+13-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:8:22-63
+14    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+14-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:9:5-72
+14-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:9:22-69
+15    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+15-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:10:5-74
+15-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:10:22-71
+16    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+16-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:22:5-65
+16-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:22:22-62
+17    <uses-feature
+17-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:25:5-27:36
+18        android:name="android.hardware.camera"
+18-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:26:9-47
+19        android:required="false" />
+19-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:27:9-33
+20    <uses-feature
+20-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:28:5-30:36
+21        android:name="android.hardware.camera.front"
+21-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:29:9-53
+22        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+22-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:30:9-33
+23    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+24    <uses-feature
+24-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:33:5-35:36
+25        android:name="android.hardware.camera.autofocus"
+25-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:34:9-57
+26        android:required="false" />
+26-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:35:9-33
+27    <uses-feature
+27-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:36:5-38:36
+28        android:name="android.hardware.camera.flash"
+28-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:37:9-53
+29        android:required="false" />
+29-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:38:9-33
+30    <uses-feature
+30-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:39:5-41:36
+31        android:name="android.hardware.screen.landscape"
+31-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:40:9-57
+32        android:required="false" />
+32-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:41:9-33
+33    <uses-feature
+33-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:42:5-44:36
+34        android:name="android.hardware.wifi"
+34-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:43:9-45
+35        android:required="false" /> <!-- To store the heap dumps and leak analysis results. -->
+35-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:44:9-33
+36    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+36-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:23:5-80
+36-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:23:22-77
+37    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- To allow starting foreground services on Android P+ - https://developer.android.com/preview/behavior-changes#fg-svc -->
+37-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:24:5-81
+37-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:24:22-78
+38    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+38-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:26:5-77
+38-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:26:22-74
+39    <uses-permission android:name="android.permission.WAKE_LOCK" />
+39-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:25:5-68
+39-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:25:22-65
+40    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+40-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:27:5-81
+40-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:27:22-78
+41
+42    <application
+42-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:12:5-113:19
+43        android:name="io.horizontalsystems.bitstashwallet.core.App"
+43-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:13:9-68
+44        android:allowBackup="false"
+44-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:14:9-36
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.1.0-rc03] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/b39b495825343ffa5c14b40cb103c24f/core-1.1.0-rc03/AndroidManifest.xml:24:18-86
+46        android:debuggable="true"
+47        android:icon="@mipmap/bitcoin_launcher"
+47-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:15:9-48
+48        android:label="@string/App_Name"
+48-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:16:9-41
+49        android:roundIcon="@mipmap/bitcoin_launcher_round"
+49-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:17:9-59
+50        android:supportsRtl="true"
+50-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:18:9-35
+51        android:testOnly="true"
+52        android:theme="@style/DarkModeAppTheme" >
+52-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:19:9-48
+53        <activity
+53-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:21:9-29:20
+54            android:name="io.horizontalsystems.bitstashwallet.modules.launcher.LauncherActivity"
+54-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:22:13-97
+55            android:screenOrientation="portrait" >
+55-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:23:13-49
+56            <intent-filter>
+56-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:24:13-28:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:25:17-69
+57-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:25:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:27:17-77
+59-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:27:27-74
+60            </intent-filter>
+61        </activity>
+62        <activity
+62-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:30:9-32:52
+63            android:name="io.horizontalsystems.bitstashwallet.modules.restore.options.RestoreOptionsActivity"
+63-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:31:13-110
+64            android:screenOrientation="portrait" />
+64-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:32:13-49
+65        <activity
+65-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:33:9-36:58
+66            android:name="io.horizontalsystems.bitstashwallet.modules.backup.BackupActivity"
+66-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:34:13-93
+67            android:screenOrientation="portrait"
+67-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:35:13-49
+68            android:windowSoftInputMode="adjustResize" />
+68-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:36:13-55
+69        <activity
+69-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:37:9-40:58
+70            android:name="io.horizontalsystems.bitstashwallet.modules.backup.words.BackupWordsActivity"
+70-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:38:13-104
+71            android:screenOrientation="portrait"
+71-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:39:13-49
+72            android:windowSoftInputMode="adjustResize" />
+72-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:40:13-55
+73        <activity
+73-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:41:9-43:52
+74            android:name="io.horizontalsystems.bitstashwallet.modules.createwallet.CreateWalletActivity"
+74-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:42:13-105
+75            android:screenOrientation="portrait" />
+75-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:43:13-49
+76        <activity
+76-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:44:9-47:63
+77            android:name="io.horizontalsystems.bitstashwallet.modules.main.MainActivity"
+77-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:45:13-89
+78            android:screenOrientation="portrait"
+78-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:46:13-49
+79            android:windowSoftInputMode="stateAlwaysHidden" />
+79-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:47:13-60
+80        <activity
+80-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:48:9-51:70
+81            android:name="io.horizontalsystems.bitstashwallet.modules.send.SendActivity"
+81-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:49:13-89
+82            android:screenOrientation="portrait"
+82-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:50:13-49
+83            android:windowSoftInputMode="stateVisible|adjustResize" />
+83-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:51:13-68
+84        <activity
+84-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:52:9-54:52
+85            android:name="io.horizontalsystems.bitstashwallet.modules.restore.words.RestoreWordsActivity"
+85-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:53:13-106
+86            android:screenOrientation="portrait" />
+86-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:54:13-49
+87        <activity
+87-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:55:9-57:52
+88            android:name="io.horizontalsystems.bitstashwallet.modules.qrscanner.QRScannerActivity"
+88-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:56:13-99
+89            android:screenOrientation="portrait" />
+89-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:57:13-49
+90        <activity
+90-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:58:9-60:52
+91            android:name="io.horizontalsystems.bitstashwallet.modules.fulltransactioninfo.views.FullTransactionInfoActivity"
+91-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:59:13-125
+92            android:screenOrientation="portrait" />
+92-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:60:13-49
+93        <activity
+93-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:61:9-63:52
+94            android:name="io.horizontalsystems.bitstashwallet.modules.fulltransactioninfo.dataprovider.DataProviderSettingsActivity"
+94-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:62:13-133
+95            android:screenOrientation="portrait" />
+95-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:63:13-49
+96        <activity
+96-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:64:9-66:52
+97            android:name="io.horizontalsystems.bitstashwallet.modules.settings.language.LanguageSettingsActivity"
+97-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:65:13-114
+98            android:screenOrientation="portrait" />
+98-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:66:13-49
+99        <activity
+99-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:67:9-69:52
+100            android:name="io.horizontalsystems.bitstashwallet.modules.settings.security.SecuritySettingsActivity"
+100-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:68:13-114
+101            android:screenOrientation="portrait" />
+101-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:69:13-49
+102        <activity
+102-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:70:9-72:52
+103            android:name="io.horizontalsystems.bitstashwallet.modules.settings.AboutSettingsActivity"
+103-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:71:13-102
+104            android:screenOrientation="portrait" />
+104-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:72:13-49
+105        <activity
+105-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:73:9-75:52
+106            android:name="io.horizontalsystems.bitstashwallet.modules.notifications.NotificationsActivity"
+106-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:74:13-107
+107            android:screenOrientation="portrait" />
+107-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:75:13-49
+108        <activity
+108-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:76:9-78:52
+109            android:name="io.horizontalsystems.bitstashwallet.modules.reportproblem.ReportProblemActivity"
+109-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:77:13-107
+110            android:screenOrientation="portrait" />
+110-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:78:13-49
+111        <activity
+111-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:79:9-81:52
+112            android:name="io.horizontalsystems.bitstashwallet.modules.lockscreen.LockScreenActivity"
+112-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:80:13-101
+113            android:screenOrientation="portrait" />
+113-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:81:13-49
+114        <activity
+114-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:82:9-84:52
+115            android:name="io.horizontalsystems.bitstashwallet.modules.pin.PinActivity"
+115-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:83:13-87
+116            android:screenOrientation="portrait" />
+116-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:84:13-49
+117        <activity
+117-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:85:9-87:52
+118            android:name="io.horizontalsystems.bitstashwallet.modules.settings.basecurrency.BaseCurrencySettingsActivity"
+118-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:86:13-122
+119            android:screenOrientation="portrait" />
+119-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:87:13-49
+120        <activity
+120-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:88:9-90:52
+121            android:name="io.horizontalsystems.bitstashwallet.modules.managecoins.views.ManageWalletsActivity"
+121-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:89:13-111
+122            android:screenOrientation="portrait" />
+122-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:90:13-49
+123        <activity
+123-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:91:9-93:52
+124            android:name="io.horizontalsystems.bitstashwallet.modules.settings.managekeys.views.ManageKeysActivity"
+124-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:92:13-116
+125            android:screenOrientation="portrait" />
+125-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:93:13-49
+126        <activity
+126-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:94:9-96:52
+127            android:name="io.horizontalsystems.bitstashwallet.modules.restore.RestoreActivity"
+127-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:95:13-95
+128            android:screenOrientation="portrait" />
+128-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:96:13-49
+129        <activity
+129-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:97:9-99:52
+130            android:name="io.horizontalsystems.bitstashwallet.modules.welcome.WelcomeActivity"
+130-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:98:13-95
+131            android:screenOrientation="portrait" />
+131-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:99:13-49
+132        <activity
+132-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:100:9-102:52
+133            android:name="io.horizontalsystems.bitstashwallet.modules.restore.eos.RestoreEosActivity"
+133-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:101:13-102
+134            android:screenOrientation="portrait" />
+134-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:102:13-49
+135        <activity
+135-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:103:9-105:52
+136            android:name="io.horizontalsystems.bitstashwallet.modules.keystore.KeyStoreActivity"
+136-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:104:13-97
+137            android:screenOrientation="portrait" />
+137-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:105:13-49
+138        <activity
+138-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:106:9-108:52
+139            android:name="io.horizontalsystems.bitstashwallet.modules.backup.eos.BackupEosActivity"
+139-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:107:13-100
+140            android:screenOrientation="portrait" />
+140-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:108:13-49
+141
+142        <meta-data
+142-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:110:9-112:57
+143            android:name="preloaded_fonts"
+143-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:111:13-43
+144            android:resource="@array/preloaded_fonts" />
+144-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:112:13-54
+145
+146        <activity
+146-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:47:9-53:63
+147            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+147-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:48:13-74
+148            android:clearTaskOnLaunch="true"
+148-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:49:13-45
+149            android:screenOrientation="sensorLandscape"
+149-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:50:13-56
+150            android:stateNotNeeded="true"
+150-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:51:13-42
+151            android:theme="@style/zxing_CaptureTheme"
+151-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:52:13-54
+152            android:windowSoftInputMode="stateAlwaysHidden" />
+152-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:53:13-60
+153
+154        <service
+154-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:29:9-32:45
+155            android:name="com.squareup.leakcanary.internal.HeapAnalyzerService"
+155-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:30:13-80
+156            android:enabled="false"
+156-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:31:13-36
+157            android:process=":leakcanary" />
+157-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:32:13-42
+158        <service
+158-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:33:9-36:45
+159            android:name="com.squareup.leakcanary.DisplayLeakService"
+159-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:34:13-70
+160            android:enabled="false"
+160-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:35:13-36
+161            android:process=":leakcanary" />
+161-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:36:13-42
+162
+163        <provider
+163-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:38:9-46:20
+164            android:name="com.squareup.leakcanary.internal.LeakCanaryFileProvider"
+164-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:39:13-83
+165            android:authorities="com.squareup.leakcanary.fileprovider.io.horizontalsystems.bankwallet.dev.master"
+165-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:40:13-88
+166            android:exported="false"
+166-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:41:13-37
+167            android:grantUriPermissions="true" >
+167-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:42:13-47
+168            <meta-data
+168-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:43:13-45:66
+169                android:name="android.support.FILE_PROVIDER_PATHS"
+169-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:44:17-67
+170                android:resource="@xml/leak_canary_file_paths" />
+170-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:45:17-63
+171        </provider>
+172
+173        <activity
+173-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:48:9-61:20
+174            android:name="com.squareup.leakcanary.internal.DisplayLeakActivity"
+174-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:49:13-80
+175            android:enabled="false"
+175-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:50:13-36
+176            android:icon="@mipmap/leak_canary_icon"
+176-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:51:13-52
+177            android:label="@string/leak_canary_display_activity_label"
+177-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:52:13-71
+178            android:process=":leakcanary"
+178-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:53:13-42
+179            android:taskAffinity="com.squareup.leakcanary.io.horizontalsystems.bankwallet.dev.master"
+179-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:54:13-76
+180            android:theme="@style/leak_canary_LeakCanary.Base" >
+180-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:55:13-63
+181            <intent-filter>
+181-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:24:13-28:29
+182                <action android:name="android.intent.action.MAIN" />
+182-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:25:17-69
+182-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:25:25-66
+183
+184                <category android:name="android.intent.category.LAUNCHER" />
+184-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:27:17-77
+184-->/Users/odapplications/Desktop/BitStash-Android-Wallet/app/src/main/AndroidManifest.xml:27:27-74
+185            </intent-filter>
+186        </activity>
+187        <activity
+187-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:62:9-71:68
+188            android:name="com.squareup.leakcanary.internal.RequestStoragePermissionActivity"
+188-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:63:13-93
+189            android:enabled="false"
+189-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:64:13-36
+190            android:excludeFromRecents="true"
+190-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:65:13-46
+191            android:icon="@mipmap/leak_canary_icon"
+191-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:66:13-52
+192            android:label="@string/leak_canary_storage_permission_activity_label"
+192-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:67:13-82
+193            android:process=":leakcanary"
+193-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:68:13-42
+194            android:roundIcon="@mipmap/leak_canary_icon"
+194-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:69:13-57
+195            android:taskAffinity="com.squareup.leakcanary.io.horizontalsystems.bankwallet.dev.master"
+195-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:70:13-76
+196            android:theme="@style/leak_canary_Theme.Transparent" />
+196-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5d3cd00ed29e88af7350a5c3c84790cd/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:71:13-65
+197        <activity
+197-->[androidx.biometric:biometric:1.0.0-beta01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/0245ec04926d1432edb17a7a9b16be6c/biometric-1.0.0-beta01/AndroidManifest.xml:28:9-30:67
+198            android:name="androidx.biometric.DeviceCredentialHandlerActivity"
+198-->[androidx.biometric:biometric:1.0.0-beta01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/0245ec04926d1432edb17a7a9b16be6c/biometric-1.0.0-beta01/AndroidManifest.xml:29:13-78
+199            android:theme="@style/DeviceCredentialHandlerTheme" />
+199-->[androidx.biometric:biometric:1.0.0-beta01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/0245ec04926d1432edb17a7a9b16be6c/biometric-1.0.0-beta01/AndroidManifest.xml:30:13-64
+200
+201        <provider
+201-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:30:9-36:35
+202            android:name="androidx.work.impl.WorkManagerInitializer"
+202-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:31:13-69
+203            android:authorities="io.horizontalsystems.bankwallet.dev.master.workmanager-init"
+203-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:32:13-68
+204            android:directBootAware="false"
+204-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:33:13-44
+205            android:exported="false"
+205-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:34:13-37
+206            android:multiprocess="true" />
+206-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:35:13-40
+207
+208        <service
+208-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:38:9-43:35
+209            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+209-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:39:13-88
+210            android:directBootAware="false"
+210-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:40:13-44
+211            android:enabled="@bool/enable_system_alarm_service_default"
+211-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:41:13-72
+212            android:exported="false" />
+212-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:42:13-37
+213        <service
+213-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:44:9-50:35
+214            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+214-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:45:13-84
+215            android:directBootAware="false"
+215-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:46:13-44
+216            android:enabled="@bool/enable_system_job_service_default"
+216-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:47:13-70
+217            android:exported="true"
+217-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:48:13-36
+218            android:permission="android.permission.BIND_JOB_SERVICE" />
+218-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:49:13-69
+219
+220        <receiver
+220-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:52:9-57:35
+221            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+221-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:53:13-88
+222            android:directBootAware="false"
+222-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:54:13-44
+223            android:enabled="true"
+223-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:55:13-35
+224            android:exported="false" />
+224-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:56:13-37
+225        <receiver
+225-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:58:9-68:20
+226            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+226-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:59:13-106
+227            android:directBootAware="false"
+227-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:60:13-44
+228            android:enabled="false"
+228-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:61:13-36
+229            android:exported="false" >
+229-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:62:13-37
+230            <intent-filter>
+230-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:64:13-67:29
+231                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+231-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:65:17-87
+231-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:65:25-84
+232                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+232-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:66:17-90
+232-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:66:25-87
+233            </intent-filter>
+234        </receiver>
+235        <receiver
+235-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:69:9-79:20
+236            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+236-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:70:13-104
+237            android:directBootAware="false"
+237-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:71:13-44
+238            android:enabled="false"
+238-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:72:13-36
+239            android:exported="false" >
+239-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:73:13-37
+240            <intent-filter>
+240-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:75:13-78:29
+241                <action android:name="android.intent.action.BATTERY_OKAY" />
+241-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:76:17-77
+241-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:76:25-74
+242                <action android:name="android.intent.action.BATTERY_LOW" />
+242-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:77:17-76
+242-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:77:25-73
+243            </intent-filter>
+244        </receiver>
+245        <receiver
+245-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:80:9-90:20
+246            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+246-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:81:13-104
+247            android:directBootAware="false"
+247-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:82:13-44
+248            android:enabled="false"
+248-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:83:13-36
+249            android:exported="false" >
+249-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:84:13-37
+250            <intent-filter>
+250-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:86:13-89:29
+251                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+251-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:87:17-83
+251-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:87:25-80
+252                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+252-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:88:17-82
+252-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:88:25-79
+253            </intent-filter>
+254        </receiver>
+255        <receiver
+255-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:91:9-100:20
+256            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+256-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:92:13-103
+257            android:directBootAware="false"
+257-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:93:13-44
+258            android:enabled="false"
+258-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:94:13-36
+259            android:exported="false" >
+259-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:95:13-37
+260            <intent-filter>
+260-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:97:13-99:29
+261                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+261-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:98:17-79
+261-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:98:25-76
+262            </intent-filter>
+263        </receiver>
+264        <receiver
+264-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:101:9-112:20
+265            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+265-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:102:13-88
+266            android:directBootAware="false"
+266-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:103:13-44
+267            android:enabled="false"
+267-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:104:13-36
+268            android:exported="false" >
+268-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:105:13-37
+269            <intent-filter>
+269-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:107:13-111:29
+270                <action android:name="android.intent.action.BOOT_COMPLETED" />
+270-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:108:17-79
+270-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:108:25-76
+271                <action android:name="android.intent.action.TIME_SET" />
+271-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:109:17-73
+271-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:109:25-70
+272                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+272-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:110:17-81
+272-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:110:25-78
+273            </intent-filter>
+274        </receiver>
+275        <receiver
+275-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:113:9-122:20
+276            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+276-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:114:13-99
+277            android:directBootAware="false"
+277-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:115:13-44
+278            android:enabled="@bool/enable_system_alarm_service_default"
+278-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:116:13-72
+279            android:exported="false" >
+279-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:117:13-37
+280            <intent-filter>
+280-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:119:13-121:29
+281                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+281-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:120:17-98
+281-->[androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:120:25-95
+282            </intent-filter>
+283        </receiver>
+284
+285        <provider
+285-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/ba0e458879e73fd6ba3abc109dfa10b5/lifecycle-process-2.2.0-alpha02/AndroidManifest.xml:25:9-29:43
+286            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+286-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/ba0e458879e73fd6ba3abc109dfa10b5/lifecycle-process-2.2.0-alpha02/AndroidManifest.xml:26:13-79
+287            android:authorities="io.horizontalsystems.bankwallet.dev.master.lifecycle-process"
+287-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/ba0e458879e73fd6ba3abc109dfa10b5/lifecycle-process-2.2.0-alpha02/AndroidManifest.xml:27:13-69
+288            android:exported="false"
+288-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/ba0e458879e73fd6ba3abc109dfa10b5/lifecycle-process-2.2.0-alpha02/AndroidManifest.xml:28:13-37
+289            android:multiprocess="true" />
+289-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/ba0e458879e73fd6ba3abc109dfa10b5/lifecycle-process-2.2.0-alpha02/AndroidManifest.xml:29:13-40
+290
+291        <service
+291-->[androidx.room:room-runtime:2.2.0-alpha01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5af2ef4df35e4873748260c14647ef2e/room-runtime-2.2.0-alpha01/AndroidManifest.xml:25:9-27:40
+292            android:name="androidx.room.MultiInstanceInvalidationService"
+292-->[androidx.room:room-runtime:2.2.0-alpha01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5af2ef4df35e4873748260c14647ef2e/room-runtime-2.2.0-alpha01/AndroidManifest.xml:26:13-74
+293            android:exported="false" />
+293-->[androidx.room:room-runtime:2.2.0-alpha01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5af2ef4df35e4873748260c14647ef2e/room-runtime-2.2.0-alpha01/AndroidManifest.xml:27:13-37
+294    </application>
+295
+296</manifest>

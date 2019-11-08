@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.horizontalsystems.bitcoin-kit-android:bitcoinkit:53e09a5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8502d09ccfe33ba83fcc1aa88a391a50/bitcoinkit-53e09a5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8502d09ccfe33ba83fcc1aa88a391a50/bitcoinkit-53e09a5/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.horizontalsystems.bitcoin-kit-android/bitcoinkit/53e09a5/935def764693afa715a697d6a1f977d869f439d8/bitcoinkit-53e09a5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

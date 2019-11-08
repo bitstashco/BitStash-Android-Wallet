@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="AccountType_Binance">Binance</string>
+    <string name="AccountType_Eos">EOS</string>
+    <string name="AccountType_Unstoppable">Unstoppable</string>
+    <string name="AddCoin_CreateKey">만들기</string>
+    <string name="AddCoin_Description">귀하께서는 %1$s를 저장할 수 있는 지갑을 가지고 계시지 않습니다. 이 앱은 귀하를 위해 새로운 지갑을 만들어 드릴 수 있습니다. 새로운 지갑을 만들기 위해 밑에있는 생성하기 버튼을 사용하십시오.\n\n귀하께서는 다음 %2$s에 대한 새로운 지갑을 사용 하실 수 있을 것 입니다.\n\n귀하께서는 또한 기존에 가지고 계셨던%3$s 지갑 암호를 사용하실 수 있습니다. 복원하기 버튼을 누르십시오.</string>
+    <string name="AddCoin_RestoreKey">복구</string>
+    <string name="AddCoin_Title">추가하기 %s</string>
+    <string name="Alert_Cancel">취소</string>
+    <string name="Alert_Close">가까운, 닫힌</string>
+    <string name="Alert_Copied">복사됨</string>
+    <string name="Alert_Copy">복사</string>
+    <string name="Alert_CustomKeyboardIsUsed">당신은 제3자의 키보드를 사용하고 있습니다. 기본 키보드를 사용해야만 합니다.</string>
+    <string name="Alert_KeysInvalidatedDescription">당신의 안드로이드 스크린 장금이 변했기 때문에 당신의 지갑에 암호화된 데이터들은 지금 이용할 수 없습니다.</string>
+    <string name="Alert_KeysInvalidatedTitle">안드로이드 키저장 에러</string>
+    <string name="Alert_NoDeviceLockDescription">이 장치에서 계속하기위해서 스크린 장금을 설정하세요. \"설정\",\"보안\",\"스크린 장금\"으로가서 장금화면 가면 화면장금 설정을 할 수 있습니다.</string>
+    <string name="Alert_Ok">확인</string>
+    <string name="Alert_Share">앞으로</string>
+    <string name="Alert_Success">성공</string>
+    <string name="Alert_TitleWarning">경고</string>
+    <string name="App_Name">BitStash Wallet</string>
+    <string name="Backup_Button_Confirm">확인</string>
+    <string name="Backup_Button_Next">다음</string>
+    <string name="Backup_Button_ShowKey">암호 보이기</string>
+    <string name="Backup_Button_Submit">제출하기</string>
+    <string name="Backup_Confirmation_CheckTitle">확인 중…</string>
+    <string name="Backup_Confirmation_DeleteAppWarn">이 앱의 이동, 삭제 또는 오작동의 경우, 본인은 지갑에 대한 접근은 이 비밀 암호를 통해서만 복구될 수 있다는 점을 이해합니다.</string>
+    <string name="Backup_Confirmation_Description">귀하의 개인 암호에서 글자를 입력 하십시오.</string>
+    <string name="Backup_Confirmation_Disclaimer">본인은 의도치 않은 버그나 앱을 사용하면서 일어날 수 있는 문제들에 대해서 이 앱의 계발자들은 어떠한 책임도 없다는 것을 이해합니다.</string>
+    <string name="Backup_Confirmation_FailureAlertText">암호가 일치 하지 않습니다.</string>
+    <string name="Backup_Confirmation_LockAppWarn">I understand that changing the phone\s unlock PIN or deleting app data in Android settings deletes the Secret Key from device. I would need to re-enter my Secret Key to regain access to my wallet.</string>
+    <string name="Backup_Confirmation_SecretKey">본인은 본인의 휴대폰에 안전하게 저장되어 있으며 지갑에 있는 자금을 통제할 수 있는 사적인 12자리 비밀 암호의 유일한 소유자라는 것을 이해합니다.</string>
+    <string name="Backup_DisplayTitle">개인 암호</string>
+    <string name="Backup_Eos_AccountName">Account Name</string>
+    <string name="Backup_Eos_ActivePrivateKey">Private Key</string>
+    <string name="Backup_Eos_Warning">클립보드 관리 앱 또는 클립보드 데이터에 접근할 수 있는 다른 앱을 사용하고 있다면 \"복사\"작업을 사용하여 암호를 복사하는 것은 위험할 수 있습니다.</string>
+    <string name="Backup_Intro_BackupNow">백업</string>
+    <string name="Backup_Intro_Later">나중에</string>
+    <string name="Backup_Intro_Subtitle">다음에 나오게될 개인 암호는 귀하께서 휴대폰 분실, 도난, 파손 등을 당하셨을 경우에 귀하의 자금을 복원시킬 유일한 방법입니다.\n\n다른 사람이 귀하의 화면을 보지 못하게 하십시오.\n\n코인들은 이 암호로 통제됩니다.%s.</string>
+    <string name="Backup_Intro_Title">백업</string>
+    <string name="Backup_Intro_TitleShow">암호 보이기</string>
+    <string name="Backup_Words_Title">비밀 키</string>
+    <string name="Balance_AddCoins">코인 추가</string>
+    <string name="Balance_Deposit">수신</string>
+    <string name="Balance_RatePerCoin">%s 당 %s</string>
+    <string name="Balance_Send">전송</string>
+    <string name="Balance_Sort_24hPriceChange">24시간 가격 (%)</string>
+    <string name="Balance_Sort_Az">이름</string>
+    <string name="Balance_Sort_Balance">Value</string>
+    <string name="Balance_Sort_PopupTitle">정렬 기준</string>
+    <string name="Balance_SyncedUntil">%s 까지</string>
+    <string name="Balance_Syncing">동기화...</string>
+    <string name="Balance_Title">잔액</string>
+    <string name="Button_Back">뒤로</string>
+    <string name="Button_Cancel">취소</string>
+    <string name="Button_Close">가까운, 닫힌</string>
+    <string name="Button_Create">생성하기</string>
+    <string name="Button_Ok">확인</string>
+    <string name="Button_Share">공유</string>
+    <string name="Charts_Error_NotAvailable">차트 이용불가</string>
+    <string name="Charts_MarketCap">시가총액</string>
+    <string name="Charts_MarketCap_Billion">십억</string>
+    <string name="Charts_MarketCap_Million">백만</string>
+    <string name="Charts_MarketCap_Thousand">천</string>
+    <string name="Charts_MarketCap_Trillion">조</string>
+    <string name="Charts_Rate_High">높음</string>
+    <string name="Charts_Rate_Low">낮음</string>
+    <string name="Charts_TimeDuration_Day">하루</string>
+    <string name="Charts_TimeDuration_HalfYear">6개월</string>
+    <string name="Charts_TimeDuration_Month">한 달</string>
+    <string name="Charts_TimeDuration_Quartal">3개월</string>
+    <string name="Charts_TimeDuration_Week">일주일</string>
+    <string name="Charts_TimeDuration_Year">1년</string>
+    <string name="Charts_Title">%s 률</string>
+    <string name="Charts_Volume">음량</string>
+    <string name="CoinOption_AfterNovember">2019년 11월 후에</string>
+    <string name="CoinOption_BeforeNovember">2019년 11월 전에</string>
+    <string name="CoinOption_Fast">빠르게</string>
+    <string name="CoinOption_Fast_Text">빠른: 귀하의 과거 거래내역을 보안 암호와 서버를 통해 복원합니다. 많은 양의 거래내역을 가지고 계신 사용자께서는 이 방법은 개인정보보호 침해의 위험을 야기할 수 있습니다.</string>
+    <string name="CoinOption_MorePrivate">1–12시간 (더욱 사적임)</string>
+    <string name="CoinOption_Recommended">00–2시간 (권장)</string>
+    <string name="CoinOption_Slow">느리게</string>
+    <string name="CoinOption_Slow_Text">느린: 블록 체인으로 부터 귀하의 과거 거래내역을 복원합니다. 더 사적이지만 굉장히 느립니다. 만약 너무 느리게 간다면, 설정에서 지갑 관리하기에 가신후, Unstoppable 입장을 삭제하시고 빠른 선택의 과정을 반복 하십시오.</string>
+    <string name="CoinOption_TimePeriod">귀하께서 처음으로 Unstoppable에서 지갑을 생성하셨을 때 시간 주기를 선택 하십시오.</string>
+    <string name="CoinOption_Title">옵션 복구</string>
+    <string name="CoinOption_bip44">BIP-44</string>
+    <string name="CoinOption_bip49">BIP-49</string>
+    <string name="Create_Description">시작하려면 한가지의 가상화폐를 선택하십시오. 귀하께서는 나중에 다른 가상화폐를 추가하실 수 있습니다.</string>
+    <string name="Create_Title">새 지갑</string>
+    <string name="Deposit_Share">공유</string>
+    <string name="Deposit_Title">수신%s</string>
+    <string name="Deposit_Your_Account">내 계정</string>
+    <string name="Deposit_Your_Address">당신의 주소</string>
+    <string name="Duration_Hours">%d 시</string>
+    <string name="Duration_Minutes">%d 분</string>
+    <string name="Duration_Seconds">%d 초</string>
+    <string name="Duration_Within">%s 안에</string>
+    <string name="Duration_instant">즉시</string>
+    <string name="EditPin_NewPinInfo">새로운 비밀번호</string>
+    <string name="EditPin_Title">비밀번호 변경</string>
+    <string name="EditPin_UnlockInfo">현재 비밀번호</string>
+    <string name="Eos_Backend_Error_AccountNotExist">회원 계정이 존재하지 않습니다</string>
+    <string name="Eos_Backend_Error_InsufficientRam">귀하의 EOS계정은 이 토큰을 보내기엔 RAM이 충분하지 않습니다. 진행하시려면 RAM량을 늘리셔야 합니다.</string>
+    <string name="Eos_Backend_Error_SelfTransfer">토큰을 개인계정으로 옮길 수 없습니다</string>
+    <string name="Error">오류</string>
+    <string name="Error_UnsupportedBlockchain">지원되지 않는 통화</string>
+    <string name="Fingerprint_DialogTitle">지문인식 로그인</string>
+    <string name="Fingerprint_EnterPin">비밀번호</string>
+    <string name="Fingerprint_Hint">터치 센서</string>
+    <string name="Fingerprint_NotRecognized">지문을 인식할 수 없습니다. 다시 시도하세요.</string>
+    <string name="Fingerprint_Success">성공!</string>
+    <string name="FullInfoEth_Amount">양</string>
+    <string name="FullInfoEth_Nonce">Nonce</string>
+    <string name="FullInfo_Block">덩어리</string>
+    <string name="FullInfo_Bytes">Bytes</string>
+    <string name="FullInfo_Confirmations">확인</string>
+    <string name="FullInfo_Contract">계약</string>
+    <string name="FullInfo_CpuUsage">CPU Usage</string>
+    <string name="FullInfo_Error_ChangeSource">출처를 변경하다</string>
+    <string name="FullInfo_Error_Retry">재시도</string>
+    <string name="FullInfo_Error_Subtitle">오프라인</string>
+    <string name="FullInfo_Fee">수수료</string>
+    <string name="FullInfo_FeePerByte">Fee per byte</string>
+    <string name="FullInfo_FeeRate">Fee Rate</string>
+    <string name="FullInfo_From">로 부터</string>
+    <string name="FullInfo_GasLimit">Gas Limit</string>
+    <string name="FullInfo_GasPrice">Gas Price</string>
+    <string name="FullInfo_GasUsed">Gas Used</string>
+    <string name="FullInfo_Id">ID</string>
+    <string name="FullInfo_Inputs">입력값</string>
+    <string name="FullInfo_Memo">Memo</string>
+    <string name="FullInfo_NetUsage">Net Usage</string>
+    <string name="FullInfo_NoAddress">빈 주소</string>
+    <string name="FullInfo_Outputs">산출값</string>
+    <string name="FullInfo_Rate">비율, 속도, 평가</string>
+    <string name="FullInfo_SatByte">sat/B</string>
+    <string name="FullInfo_Size">크기</string>
+    <string name="FullInfo_Source">원천, 자료</string>
+    <string name="FullInfo_Source_Offline">오프라인</string>
+    <string name="FullInfo_Source_Online">온라인</string>
+    <string name="FullInfo_Source_Title">원천, 자료</string>
+    <string name="FullInfo_Status">상태</string>
+    <string name="FullInfo_SubtitleInputs">입력값</string>
+    <string name="FullInfo_SubtitleOutputs">산출값</string>
+    <string name="FullInfo_Time">시간</string>
+    <string name="FullInfo_Title">거래기록</string>
+    <string name="FullInfo_To">에게</string>
+    <string name="FullInfo_TotalInput">Total Input</string>
+    <string name="FullInfo_TotalOutput">Total Output</string>
+    <string name="Hud_Network_Issue">네트워크에 문제가 있습니다. 잠시 후 다시 시도해 주세요</string>
+    <string name="Hud_Text_Copied">복사됨</string>
+    <string name="Hud_Text_Done">완료</string>
+    <string name="Hud_Text_Error">오류</string>
+    <string name="Hud_Text_InvalidPinError">잘못된 비밀번호</string>
+    <string name="Hud_Text_NoInternet">인터넷에 연결되지 않음</string>
+    <string name="Hud_Text_Success">성공</string>
+    <string name="Hud_Text_Unlock">잠금 해제</string>
+    <string name="ManageCoins_AddCoin_Text">이 행동은 다음 코인에 대한 새로운 지갑을 생성합니다:%s </string>
+    <string name="ManageCoins_AddCoin_Title">지갑 추가하기</string>
+    <string name="ManageCoins_EOSAlert_CreateButton">현재 지갑에서 새 EOS 지갑 계정을 만들 수 없습니다. 기존 파일만 복원할 수 있습니다.</string>
+    <string name="ManageCoins_save">저장</string>
+    <string name="ManageCoins_title">지갑</string>
+    <string name="ManageKeys_Backup">백업</string>
+    <string name="ManageKeys_Create">만들기</string>
+    <string name="ManageKeys_Delete">삭제</string>
+    <string name="ManageKeys_Delete_Alert">개인 암호가 휴대폰에서 지워질 수 있기 전에 귀하께서는 개인 암호를 백업 하셔야 합니다.</string>
+    <string name="ManageKeys_Delete_Alert_Title">백업이 필요합니다</string>
+    <string name="ManageKeys_Delete_ConfirmationDisable">비활성화될 코인: %s</string>
+    <string name="ManageKeys_Delete_ConfirmationLose">지갑에서 개인 암호를 백업 시키지 않으셨을 경우, 귀하께서는 자금 접근에 제한이 있을 것 입니다.</string>
+    <string name="ManageKeys_Delete_ConfirmationRemove">이 행동은 %s 지갑을 장치에서 삭제합니다.</string>
+    <string name="ManageKeys_Delete_FromPhone">휴대전화에서 삭제</string>
+    <string name="ManageKeys_Delete_Title">지갑 삭제하기</string>
+    <string name="ManageKeys_Description">아래 강조표시가 된부분은 각각의 지갑이 다른 세트의 가상화폐에 책임이 있는 귀하께서 사용중인 지갑입니다. \n\n귀하께서는 개인 암호를 백업 시킴으로써 각각의 강조표시된 지갑들도 백업을 하셔야 합니다. 이 암호는 귀하께서 휴대폰 분실, 도난, 파손 등을 당하셨을때 복원 할 수 있는 유일한 암호 입니다.</string>
+    <string name="ManageKeys_Restore">복구</string>
+    <string name="ManageKeys_Show">표시</string>
+    <string name="ManageKeys_Title">지갑 관리하기</string>
+    <string name="NotAvailable">해당 없음 </string>
+    <string name="Notification_Down">아래로</string>
+    <string name="Notification_Notifications">알림%s</string>
+    <string name="Notification_Up">위로</string>
+    <string name="OSPin_Confirm_Desciption">이 앱을 사용하려면 휴대전화에 암호(화면 잠금) 가 활성화되어 있어야 합니다. \n\n Android 설정에서 활성화할 수 있습니다. \n\nOS 수준에서 PIN을 비활성화하면 휴대기기의 안전한 저장에 대한 보안조치로 인해 이전에 저장된 데이터가 유효하지 않게 됩니다. 지갑으로 돌아가려면 지갑 암호를 복원하십시오.</string>
+    <string name="OSPin_Confirm_Title">핸드폰 핀넘버</string>
+    <string name="OSPin_Prompt_Desciption">앱 자체가 아닌 안드로이드의 안전한 저장소에 지갑의 중요한 데이터를 저장하려면 이 앱은 휴대전화의 PIN이 필요합니다.</string>
+    <string name="Receive_Alert_NotBackedUp_Button">백업</string>
+    <string name="Receive_Alert_NotBackedUp_Description">귀하께서 %2$s를 받기전에 %1$s 지갑의 백업이 필요합니다.</string>
+    <string name="Receive_Alert_NotBackedUp_Title">백업이 필요합니다</string>
+    <string name="Restore_Description">기존으 지갑을 복원시키려면 귀하께서는 개인 암호를 입력 하셔야 합니다.\n\n하나의 지갑을 복원 시키시면 다른 지갑들도 앱의 보안 설정에서 지갑 관리 섹션을 통해 복원 하실 수 있습니다.</string>
+    <string name="Restore_EosAccountIncorrect">계정이 존재하지 않습니다</string>
+    <string name="Restore_EosAccountName">Account Name</string>
+    <string name="Restore_EosActivePrivateKey">Active Private Key</string>
+    <string name="Restore_EosKeyIncorrect">틀린 암호 입니다</string>
+    <string name="Restore_RestoreFailed">지갑 복구에 실패하였습니다.</string>
+    <string name="Restore_Title">복구</string>
+    <string name="Restore_ValidationFailed">틀린 암호 입니다</string>
+    <string name="Send_Button_Max">최대</string>
+    <string name="Send_Button_Next">다음</string>
+    <string name="Send_Button_Paste">붙여넣기</string>
+    <string name="Send_Confirmation_Eos_HintAccount">Account</string>
+    <string name="Send_Confirmation_EstimateTime">예상 소요시간:</string>
+    <string name="Send_Confirmation_HintMemo">Memo:</string>
+    <string name="Send_Confirmation_Send_Button">전송</string>
+    <string name="Send_Confirmation_Title">확인</string>
+    <string name="Send_Confirmation_To">에게: </string>
+    <string name="Send_Confirmation_Total">합계:</string>
+    <string name="Send_DialogDuration">기간:</string>
+    <string name="Send_DialogFee">수수료:</string>
+    <string name="Send_DialogMemoHint">Memo</string>
+    <string name="Send_DialogProceed">진행</string>
+    <string name="Send_DialogSpeed">거래 속도:</string>
+    <string name="Send_DialogTitle">확인</string>
+    <string name="Send_DialogTotal">합계:</string>
+    <string name="Send_ERC_Alert">%@ (ERC20) 에 대한 거래 수수료는 Ethereum 로 지불되었습니다. 귀하는 %@ ETH 가 필요합니다.</string>
+    <string name="Send_Error_BalanceAmount">잔액%s</string>
+    <string name="Send_Error_IncorrectAddress">잘못된 주소</string>
+    <string name="Send_Error_InsufficientBalance">잔액이 부족합니다.</string>
+    <string name="Send_Error_InvalidAddress">주소가 올바르지 않습니다. 다시 확인하고 시도해주세요!</string>
+    <string name="Send_Fee">수수료:</string>
+    <string name="Send_Hint_Address">주소</string>
+    <string name="Send_Hint_Amount">양</string>
+    <string name="Send_ScanQrCode">QR 코드 스캔</string>
+    <string name="Send_Sending">전송중</string>
+    <string name="Send_Success">\u2713 보냄</string>
+    <string name="Send_Title">전송 %s</string>
+    <string name="Send_Token_InsufficientFeeAlert">%s (%s) 에 대한 거래 수수료는 %s로 지불되었습니다. 귀하는 %s가 필요합니다.</string>
+    <string name="Send_TxSpeed_High">높음</string>
+    <string name="Send_TxSpeed_Low">낮음</string>
+    <string name="Send_TxSpeed_Medium">보통</string>
+    <string name="SetPin_ConfirmInfo">확인</string>
+    <string name="SetPin_ErrorFailedToSavePin">당신의 비밀번호를 저장하는 동안 오류가 발생했습니다. 다시 시도하세요.</string>
+    <string name="SetPin_ErrorPinsDontMatch">비밀번호가 일치하지 않습니다. 다시 시도하세요.</string>
+    <string name="SetPin_ErrorShortPin">모든 숫자를 입력하세요.</string>
+    <string name="SetPin_Info">너의 비밀번호는 너의 지갑을 열어주고 돈을 보내는데 사용될 것입니다.</string>
+    <string name="SetPin_Success">비밀번호 장금이 성공적으로 설정되었습니다!</string>
+    <string name="SetPin_Title">비밀번호</string>
+    <string name="SettingsAbout_AppTitle">Unstoppable</string>
+    <string name="SettingsAbout_TermsPrivacySubtitle">용어 및 정책:</string>
+    <string name="SettingsAbout_TermsPrivacyText">이 응용 프로그램은 peer-to-peer방식입니다. 작동하기 위해서 어떠한 웹 서버 또는 기술 지원 담당자에게 의존하지 않습니다.
+
+\n\n인터넷이 되는 어느 곳에서나 작동합니다. 누구도 이 어플을 작동하는 것을 막을 수 없고 그것을 사용하기 위해 누군가를 차단할 수 없습니다.
+
+\n\n당신의 자금은 안전하게 다른 어떤한 곳도 아닌 핸드폰 자체에 저장됩니다.
+
+\n\n너의 비밀 키를 백업하고 그것을 비공개로 지키는 것은 당신의 책임에 달려있습니다. 절대로 누군가에게 보여주지 마세요. 만약에 잃어버린다면, 당신의 비밀 키를 가진 사람이 당신의 자금을 훔치거나 잃어버리게 할 수 있습니다.
+
+\n\n당신의 핸드폰을 탈옥하지마세요, 알려지지 않은 (믿을 수 없는) 출처로부터의 어플을 설치하지마세요, 당신의 핸드폰을 믿을 수 없는 사람에게 주지 마세요, 그리고 당신의 핸드폰의 운영체제을 최신버전으로 유지하세요. 이것은 당신의 지갑의 안전을 지켜줄 것입니다. 
+
+\n\n이 어플을 작동시키는 전체코드는 시작할 때부터 대중의 감시에 공개됩니다. 의도하지 않은 소프트웨어 문제들이 없다는 보장은 없지만, 우리는 가장 안전하고 분권화된 지갑을 만들기 위해 시도할 것입니다. 즉, 이 지갑은 어떠한 스마트폰 어플보다 안전할 것입니다.
+
+\n\n통화 환율과 같은 총괄적이고 사적이지 않은 데이터는 분산된 저장소(IPFS)에 저장될 것입니다.</string>
+    <string name="SettingsAbout_Title">에 대해</string>
+    <string name="SettingsCurrency_Title">기초 통화</string>
+    <string name="SettingsLanguage_Title">언어</string>
+    <string name="SettingsNotifications_DeactivateAll">전부 비활성화</string>
+    <string name="SettingsNotifications_Description">귀하께서 보고싶으신 코인들의 가격 변동 설정 알람 설정을 하십시오.\n\n귀하께서는 24시간 전의 가격 변동이 선택하신 기대치에 도달할 경우에 알림을 받을 것 입니다.</string>
+    <string name="SettingsNotifications_NotificationsDisabledWarning">Unstoppable 지갑 앱을 위한 알림이 불가능합니다. 귀하께서는 가격 변동 알림을 받으시려면 앱을 켜놓는걸 필요로 합니다.</string>
+    <string name="SettingsNotifications_Off">끄기</string>
+    <string name="SettingsNotifications_Title">알림</string>
+    <string name="SettingsNotifications_TurnOn">설정에서 켜십시오</string>
+    <string name="SettingsReport_Email">E-mail</string>
+    <string name="SettingsReport_Telegram">Telegram</string>
+    <string name="SettingsReport_Title">문제점 보고</string>
+    <string name="SettingsSecurity_BackupWallet">백업용 지갑</string>
+    <string name="SettingsSecurity_EditPin">비밀번호 변경</string>
+    <string name="SettingsSecurity_EnablePin">비밀번호</string>
+    <string name="SettingsSecurity_Fingerprint">지문</string>
+    <string name="SettingsSecurity_ManageKeys">지갑 관리하기</string>
+    <string name="SettingsShare_Text">Unstoppable 지갑 - 내가 추천하는 암호지갑</string>
+    <string name="SettingsShare_Title">공유</string>
+    <string name="Settings_About">에 대해</string>
+    <string name="Settings_BaseCurrency">기초 통화</string>
+    <string name="Settings_Error_FingerprintNotEnabled">지문을 사용할 수 없습니다.</string>
+    <string name="Settings_Error_NoFingerprintAddedYet">당신은 이 장치에서 지문을 사용할 수 없습니다. 지문 액세스를 설정하는 보안으로 이동합니다.</string>
+    <string name="Settings_InfoTitleWithVersion">Unstoppable %s</string>
+    <string name="Settings_Language">언어</string>
+    <string name="Settings_LightMode">밝은 모드</string>
+    <string name="Settings_ManageCoins">코인 관리</string>
+    <string name="Settings_Notifications">알림</string>
+    <string name="Settings_Report">문제점 보고</string>
+    <string name="Settings_RestoreWallet">지갑 복원</string>
+    <string name="Settings_SecurityCenter">보안 센터</string>
+    <string name="Settings_ShareThisWallet">친구에게 추천하기</string>
+    <string name="Settings_Title">설정</string>
+    <string name="Timestamp_HoursAgo">%d시간 전</string>
+    <string name="Timestamp_JustNow">지금 막</string>
+    <string name="Timestamp_MinAgo">%d분 전</string>
+    <string name="Timestamp_Today">오늘</string>
+    <string name="Timestamp_Yesterday">어제</string>
+    <string name="TransactionInfo_ButtonVerify">확인</string>
+    <string name="TransactionInfo_Fee">수수료</string>
+    <string name="TransactionInfo_FootNote">이 거래의 가치는 귀하의 주소로 전송되었으므로 0으로 나타납니다</string>
+    <string name="TransactionInfo_From">로 부터</string>
+    <string name="TransactionInfo_HistoricalRate">과거 환율</string>
+    <string name="TransactionInfo_Id">ID</string>
+    <string name="TransactionInfo_Status">상태</string>
+    <string name="TransactionInfo_Status_Confirmed">확인</string>
+    <string name="TransactionInfo_Status_Pending">보류 중</string>
+    <string name="TransactionInfo_Time">시간</string>
+    <string name="TransactionInfo_Title">거래기록</string>
+    <string name="TransactionInfo_To">에게</string>
+    <string name="Transactions_EmptyList">당신은 아직 거래를 하지 않았습니다.</string>
+    <string name="Transactions_FilterAll">전부</string>
+    <string name="Transactions_Title">거래기록</string>
+    <string name="UnlockPin_Error_PinIncorrect">틀림</string>
+    <string name="UnlockPin_WalletDisabledUntil">~때까지 사용 안 함: %s</string>
+    <string name="Unlock_Page_EnterYourPin">비밀번호</string>
+    <string name="Wallet">%s 지갑</string>
+    <string name="Welcome_CreateWallet">새 지갑</string>
+    <string name="Welcome_RestoreWallet">지갑 복원</string>
+    <string name="Welcome_Title">Unstoppable</string>
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"홈으로 이동"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"위로 이동"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"추가 옵션"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"완료"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"전체 보기"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"앱 선택"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"사용 중지"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"사용"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"스페이스바"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"검색..."</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"검색어 삭제"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"검색어"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"검색"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"검색어 보내기"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"음성 검색"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"공유 대상:"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>과(와) 공유"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"접기"</string>
+    <string msgid="6241458715391513061" name="accessibility_fingerprint_dialog_help_area">"도움말 메시지 영역"</string>
+    <string msgid="4296851028928624518" name="confirm_device_credential_password">"비밀번호 사용"</string>
+    <string msgid="7497355367608150274" name="default_error_msg">"알 수 없는 오류"</string>
+    <string msgid="5354590751262189738" name="fingerprint_dialog_touch_sensor">"지문 센서를 터치하세요."</string>
+    <string msgid="3976825677335166260" name="fingerprint_error_hw_not_available">"지문 인식 하드웨어를 사용할 수 없습니다."</string>
+    <string msgid="1176237289575184578" name="fingerprint_error_hw_not_present">"기기에 지문 센서가 없습니다."</string>
+    <string msgid="1651062876313169162" name="fingerprint_error_lockout">"시도 횟수가 너무 많습니다. 나중에 다시 시도해 주세요."</string>
+    <string msgid="3350805046152877040" name="fingerprint_error_no_fingerprints">"등록된 지문이 없습니다."</string>
+    <string msgid="3421037373085129417" name="fingerprint_error_user_canceled">"사용자가 지문 인식 작업을 취소했습니다."</string>
+    <string msgid="5491287833813257925" name="fingerprint_not_recognized">"인식할 수 없음"</string>
+    <string msgid="7474799539658018076" name="generic_error_user_canceled">"사용자가 인증을 취소했습니다."</string>
+    <string msgid="730395136688082741" name="search_menu_title">"검색"</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="zxing_app_name">바코드 스캐너</string>
+    <string name="zxing_button_ok">확인</string>
+    <string name="zxing_msg_camera_framework_bug">죄송합니다. 기기의 카메라에 오류가 생겼습니다. 기기를 재시작 해야될 수도 있습니다.</string>
+    <string name="zxing_msg_default_status">바코드를 사각형 안에 비춰주세요.</string>
+</resources>

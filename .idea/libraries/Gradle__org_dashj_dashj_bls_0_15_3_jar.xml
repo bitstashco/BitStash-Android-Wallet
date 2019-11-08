@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.dashj:dashj-bls:0.15.3@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.dashj/dashj-bls/0.15.3/d6174482e490620f3c085c1200ee8064573c27de/dashj-bls-0.15.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.dashj/dashj-bls/0.15.3/cd2499a98ab606e2be7fe09fe95d567af9d6dc9a/dashj-bls-0.15.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.dashj/dashj-bls/0.15.3/e464029436073bb0185492f3a0279bd4ece74695/dashj-bls-0.15.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

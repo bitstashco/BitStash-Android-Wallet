@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/odapplications/Desktop/unstoppable-wallet-android-master/app/build/intermediates/incremental/mergeProductionMainnetReleaseResources/merged.dir/values-sv/values-sv.xml",
+            "map": [
+                {
+                    "source": "/Users/odapplications/.gradle/caches/transforms-2/files-2.1/0245ec04926d1432edb17a7a9b16be6c/biometric-1.0.0-beta01/res/values-sv/values-sv.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,183,292,378,499,638,768,890,1019,1155,1260",
+                        "endColumns": "127,108,85,120,138,129,121,128,135,104,126",
+                        "endOffsets": "178,287,373,494,633,763,885,1014,1150,1255,1382"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,33,34,35,36,37,38,39",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2778,2906,3015,3101,3222,3361,3491,3613,3742,3878,3983",
+                        "endColumns": "127,108,85,120,138,129,121,128,135,104,126",
+                        "endOffsets": "2901,3010,3096,3217,3356,3486,3608,3737,3873,3978,4105"
+                    }
+                },
+                {
+                    "source": "/Users/odapplications/.gradle/caches/transforms-2/files-2.1/3d1a9961c8a95c18be1ae51ff17a3b54/appcompat-1.1.0-rc01/res/values-sv/values-sv.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,208,311,422,506,608,721,798,874,967,1061,1156,1250,1353,1448,1545,1643,1739,1832,1911,2017,2116,2212,2317,2420,2522,2676,2778",
+                        "endColumns": "102,102,110,83,101,112,76,75,92,93,94,93,102,94,96,97,95,92,78,105,98,95,104,102,101,153,101,78",
+                        "endOffsets": "203,306,417,501,603,716,793,869,962,1056,1151,1245,1348,1443,1540,1638,1734,1827,1906,2012,2111,2207,2312,2415,2517,2671,2773,2852"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,40",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,208,311,422,506,608,721,798,874,967,1061,1156,1250,1353,1448,1545,1643,1739,1832,1911,2017,2116,2212,2317,2420,2522,2676,4110",
+                        "endColumns": "102,102,110,83,101,112,76,75,92,93,94,93,102,94,96,97,95,92,78,105,98,95,104,102,101,153,101,78",
+                        "endOffsets": "203,306,417,501,603,716,793,869,962,1056,1151,1245,1348,1443,1540,1638,1734,1827,1906,2012,2111,2207,2312,2415,2517,2671,2773,4184"
+                    }
+                },
+                {
+                    "source": "/Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/res/values-sv/values-sv.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,161,267",
+                        "endColumns": "58,46,105,113",
+                        "endOffsets": "109,156,262,376"
+                    },
+                    "to": {
+                        "startLines": "42,43,44,45",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "4290,4349,4396,4502",
+                        "endColumns": "58,46,105,113",
+                        "endOffsets": "4344,4391,4497,4611"
+                    }
+                },
+                {
+                    "source": "/Users/odapplications/.gradle/caches/transforms-2/files-2.1/b39b495825343ffa5c14b40cb103c24f/core-1.1.0-rc03/res/values-sv/values-sv.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "41",
+                        "startColumns": "4",
+                        "startOffsets": "4189",
+                        "endColumns": "100",
+                        "endOffsets": "4285"
+                    }
+                }
+            ]
+        }
+    ]
+}

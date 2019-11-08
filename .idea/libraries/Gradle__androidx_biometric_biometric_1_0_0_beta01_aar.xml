@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.biometric:biometric:1.0.0-beta01@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0245ec04926d1432edb17a7a9b16be6c/biometric-1.0.0-beta01/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0245ec04926d1432edb17a7a9b16be6c/biometric-1.0.0-beta01/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0245ec04926d1432edb17a7a9b16be6c/biometric-1.0.0-beta01/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.biometric/biometric/1.0.0-beta01/9e4bae6ebd6323fe0ae232eae461ac0cb9e8e988/biometric-1.0.0-beta01-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

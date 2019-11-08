@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/odapplications/Desktop/unstoppable-wallet-android-master/app/build/intermediates/incremental/mergeProductionMainnetReleaseResources/merged.dir/values-eu/values-eu.xml",
+            "map": [
+                {
+                    "source": "/Users/odapplications/.gradle/caches/transforms-2/files-2.1/0245ec04926d1432edb17a7a9b16be6c/biometric-1.0.0-beta01/res/values-eu/values-eu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,181,292,385,504,640,773,909,1035,1192,1291",
+                        "endColumns": "125,110,92,118,135,132,135,125,156,98,138",
+                        "endOffsets": "176,287,380,499,635,768,904,1030,1187,1286,1425"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,33,34,35,36,37,38,39",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2850,2976,3087,3180,3299,3435,3568,3704,3830,3987,4086",
+                        "endColumns": "125,110,92,118,135,132,135,125,156,98,138",
+                        "endOffsets": "2971,3082,3175,3294,3430,3563,3699,3825,3982,4081,4220"
+                    }
+                },
+                {
+                    "source": "/Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/res/values-eu/values-eu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,119,168,316",
+                        "endColumns": "63,48,147,111",
+                        "endOffsets": "114,163,311,423"
+                    },
+                    "to": {
+                        "startLines": "42,43,44,45",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "4408,4472,4521,4669",
+                        "endColumns": "63,48,147,111",
+                        "endOffsets": "4467,4516,4664,4776"
+                    }
+                },
+                {
+                    "source": "/Users/odapplications/.gradle/caches/transforms-2/files-2.1/b39b495825343ffa5c14b40cb103c24f/core-1.1.0-rc03/res/values-eu/values-eu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "41",
+                        "startColumns": "4",
+                        "startOffsets": "4307",
+                        "endColumns": "100",
+                        "endOffsets": "4403"
+                    }
+                },
+                {
+                    "source": "/Users/odapplications/.gradle/caches/transforms-2/files-2.1/3d1a9961c8a95c18be1ae51ff17a3b54/appcompat-1.1.0-rc01/res/values-eu/values-eu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,214,312,422,508,614,738,824,906,998,1091,1187,1281,1383,1477,1573,1670,1762,1855,1936,2045,2154,2253,2362,2469,2580,2751,2850",
+                        "endColumns": "108,97,109,85,105,123,85,81,91,92,95,93,101,93,95,96,91,92,80,108,108,98,108,106,110,170,98,81",
+                        "endOffsets": "209,307,417,503,609,733,819,901,993,1086,1182,1276,1378,1472,1568,1665,1757,1850,1931,2040,2149,2248,2357,2464,2575,2746,2845,2927"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,40",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,214,312,422,508,614,738,824,906,998,1091,1187,1281,1383,1477,1573,1670,1762,1855,1936,2045,2154,2253,2362,2469,2580,2751,4225",
+                        "endColumns": "108,97,109,85,105,123,85,81,91,92,95,93,101,93,95,96,91,92,80,108,108,98,108,106,110,170,98,81",
+                        "endOffsets": "209,307,417,503,609,733,819,901,993,1086,1182,1276,1378,1472,1568,1665,1757,1850,1931,2040,2149,2248,2357,2464,2575,2746,2845,4302"
+                    }
+                }
+            ]
+        }
+    ]
+}

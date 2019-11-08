@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.horizontalsystems:eos-kit-android:42fbfd5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d39ce27af31e06f2ba3f2990e00b27de/eos-kit-android-42fbfd5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d39ce27af31e06f2ba3f2990e00b27de/eos-kit-android-42fbfd5/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.horizontalsystems/eos-kit-android/42fbfd5/65e200897b0e9d5d27396a2a41837bc7bf53aaf0/eos-kit-android-42fbfd5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

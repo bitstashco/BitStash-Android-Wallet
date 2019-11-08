@@ -1,0 +1,758 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:2:1-115:12
+INJECTED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:2:1-115:12
+INJECTED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:2:1-115:12
+INJECTED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:2:1-115:12
+MERGED from [com.aurelhubert:ahbottomnavigation:2.3.4] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/ce0707c382bc82c16e9dcc137787fe67/ahbottomnavigation-2.3.4/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/54c1b16019f1ccf2d95e2f768f495e66/anko-commons-0.10.8/AndroidManifest.xml:2:1-13:12
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:17:1-56:12
+MERGED from [com.github.horizontalsystems:blockchain-fee-rate-kit-android:15df939] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/d29908df1e143cb6512db0ac7e87def5/blockchain-fee-rate-kit-android-15df939/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.horizontalsystems:binance-chain-kit-android:d33bda5] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/3a491322fde33d929828e7274cdd4cb6/binance-chain-kit-android-d33bda5/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.horizontalsystems:eos-kit-android:42fbfd5] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/d39ce27af31e06f2ba3f2990e00b27de/eos-kit-android-42fbfd5/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.horizontalsystems.ethereum-kit-android:erc20kit:db6f1a2] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/b3bc9e0e63163b397e6c5d6570d23900/jetified-erc20kit-db6f1a2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.horizontalsystems.ethereum-kit-android:ethereumkit:db6f1a2] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/9b1c3e5dc28ad8eab70a5d5216197391/jetified-ethereumkit-db6f1a2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:bitcoincashkit:53e09a5] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c50af3ecd1f851236c39b830d4b054e7/bitcoincashkit-53e09a5/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:bitcoinkit:53e09a5] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/8502d09ccfe33ba83fcc1aa88a391a50/bitcoinkit-53e09a5/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:dashkit:53e09a5] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c7ae5c91b5bd1701d9fdd8975e196128/jetified-dashkit-53e09a5/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:bitcoincore:53e09a5] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/8a9daccdc3bba617bf062e09b252eabb/jetified-bitcoincore-53e09a5/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.1.0-alpha09] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/702dcdcf2c61b5d7c78a447563e34055/material-1.1.0-alpha09/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.biometric:biometric:1.0.0-beta01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/0245ec04926d1432edb17a7a9b16be6c/biometric-1.0.0-beta01/AndroidManifest.xml:17:1-33:12
+MERGED from [one.block:eosiojavaandroidabieosserializationprovider:0.1.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/d4cdb26d8963c46650882d10d404449f/eosiojavaandroidabieosserializationprovider-0.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [one.block:eosiojavarpcprovider:0.1.1] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/d293391410a97716274a4e35c00a77e0/eosiojavarpcprovider-0.1.1/AndroidManifest.xml:2:1-10:12
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/3d1a9961c8a95c18be1ae51ff17a3b54/appcompat-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/6102808b9ba7d8939166ec116dd388e7/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5ac0712be341d4152d4832c4bf6c5890/lifecycle-extensions-2.2.0-alpha02/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/828fd6090e4b4f7e6e519ac1a1c11984/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/49903917106a5389d6c9cce311d38f81/viewpager2-1.0.0-beta02/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.0-alpha01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/27daee19ff42b23c8ec76aca56d225c3/fragment-1.2.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-rxjava2:2.2.0-alpha01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/4f70d6145832b02bf53b896594dd6b74/room-rxjava2-2.2.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5fe870666b6d54a2ab33f0f3a2bd98ce/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/b695b2a56e6a5b6181b3621095c17e85/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/6584f13befaca8ea228d4715e2dc3ad7/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0-alpha01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/adc7fdf1229885988fbce7a475e1d74e/activity-1.1.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/670faebf7cafa7eaa9eb2eb632de75d9/lifecycle-viewmodel-2.2.0-alpha02/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/693c8bed8dcaf08d93300fc0cc32d842/lifecycle-reactivestreams-2.2.0-alpha02/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime-ktx:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/44be9e544dfe12b92ef29648dcd83eda/work-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-rxjava2:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/37cf18e1fed4dda9cc3100b47794629f/work-rxjava2-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:17:1-125:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/acdbdb21673c8967d101f92b87035e8d/lifecycle-livedata-2.2.0-alpha02/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/ba0e458879e73fd6ba3abc109dfa10b5/lifecycle-process-2.2.0-alpha02/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/f8f9b6fdcec16008bb1a21510f044026/lifecycle-service-2.2.0-alpha02/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/01b1a62468323e316b2867bc5d2b13a7/recyclerview-1.1.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/9029f6e178463bd6d68d21d3394970b6/appcompat-resources-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/0e7c68274fb8b28cc0414eb5b896e448/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/0d1108e14fd6919c5fdb8be3f41c749c/coordinatorlayout-1.1.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/af36f58cd0e158191b16f152cd9384fa/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/f90f0520ace61e57407c62d05c7599e6/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/03a5f07200efd577bbc8803fd8b08cb6/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.1] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/ea33cbe4fe3a49cf611050916879bfd8/transition-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/e3f9525157dd5c329d8ba2cfa26a1f5f/vectordrawable-animated-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/8425a2704df457c1d9cb8f09c0e21fe4/vectordrawable-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/1822ddf8bba76c34a8d099a80b65233c/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a6d49c8642ad63e674bb294866a6f37f/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/159d6bf692454e275ce117e5745773ee/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0-rc03] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/b39b495825343ffa5c14b40cb103c24f/core-1.1.0-rc03/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/fc2f7c2a221d4f008c02d84c5001c352/lifecycle-runtime-2.2.0-alpha02/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.2.0-alpha01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5af2ef4df35e4873748260c14647ef2e/room-runtime-2.2.0-alpha01/AndroidManifest.xml:17:1-30:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/fadc3fe412e8ae822765ea7ce6dd3e33/rxandroid-2.1.1/AndroidManifest.xml:15:1-20:12
+MERGED from [me.relex:circleindicator:2.1.4] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/49d41f99030cd8875c56aa81bdcde42d/circleindicator-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.squareup.leakcanary:leakcanary-android-no-op:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/9a37d4993b5421c815d31d794bb476c1/jetified-leakcanary-android-no-op-1.6.3/AndroidManifest.xml:17:1-22:12
+MERGED from [org.jetbrains.anko:commons-base:0.10.8] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/e6d909c381166d2f4b0bc6d0e52e7ada/jetified-commons-base-0.10.8/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/9cba381e8055641c4dc40bc11abe10f8/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/2a51d0d286fef344706b0cbe0d6d4a90/lifecycle-livedata-core-2.2.0-alpha02/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0-rc01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/4b7449072d66ad9358d58dda618f0898/core-runtime-2.1.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/b854df2ccbe7e33bbfc514de5d7a6845/savedstate-1.0.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/ffe868ad401564312d2e6d49f210bd15/sqlite-framework-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c8ce72e17bc646ec8811aa397c6a8f1a/sqlite-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/58d88fd89258cdd691690d275e842715/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/67c883568d1fe6725642d1cded7759e4/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c3b3b4398b212a9d6db83cd6fa85e466/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/8b23317537ebe90a2a229e676ad91caa/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c2eebe165acf9442a84162aac830e07c/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/2d0d7c2d9455c2e14c5e442172548106/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:2:1-115:12
+INJECTED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:2:1-115:12
+INJECTED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:2:1-115:12
+	package
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:4:5-50
+		INJECTED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:2:1-115:12
+		INJECTED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:2:1-115:12
+		INJECTED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:7:5-79
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:bitcoinkit:53e09a5] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/8502d09ccfe33ba83fcc1aa88a391a50/bitcoinkit-53e09a5/AndroidManifest.xml:11:5-79
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:bitcoinkit:53e09a5] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/8502d09ccfe33ba83fcc1aa88a391a50/bitcoinkit-53e09a5/AndroidManifest.xml:11:5-79
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:bitcoincore:53e09a5] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/8a9daccdc3bba617bf062e09b252eabb/jetified-bitcoincore-53e09a5/AndroidManifest.xml:11:5-79
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:bitcoincore:53e09a5] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/8a9daccdc3bba617bf062e09b252eabb/jetified-bitcoincore-53e09a5/AndroidManifest.xml:11:5-79
+MERGED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:8:22-63
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:9:5-72
+MERGED from [androidx.biometric:biometric:1.0.0-beta01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/0245ec04926d1432edb17a7a9b16be6c/biometric-1.0.0-beta01/AndroidManifest.xml:24:5-72
+MERGED from [androidx.biometric:biometric:1.0.0-beta01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/0245ec04926d1432edb17a7a9b16be6c/biometric-1.0.0-beta01/AndroidManifest.xml:24:5-72
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:9:22-69
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:10:5-74
+MERGED from [androidx.biometric:biometric:1.0.0-beta01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/0245ec04926d1432edb17a7a9b16be6c/biometric-1.0.0-beta01/AndroidManifest.xml:25:5-74
+MERGED from [androidx.biometric:biometric:1.0.0-beta01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/0245ec04926d1432edb17a7a9b16be6c/biometric-1.0.0-beta01/AndroidManifest.xml:25:5-74
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:10:22-71
+application
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:12:5-113:19
+MERGED from [com.aurelhubert:ahbottomnavigation:2.3.4] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/ce0707c382bc82c16e9dcc137787fe67/ahbottomnavigation-2.3.4/AndroidManifest.xml:11:5-20
+MERGED from [com.aurelhubert:ahbottomnavigation:2.3.4] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/ce0707c382bc82c16e9dcc137787fe67/ahbottomnavigation-2.3.4/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/54c1b16019f1ccf2d95e2f768f495e66/anko-commons-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/54c1b16019f1ccf2d95e2f768f495e66/anko-commons-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:46:5-54:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:46:5-54:19
+MERGED from [com.google.android.material:material:1.1.0-alpha09] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/702dcdcf2c61b5d7c78a447563e34055/material-1.1.0-alpha09/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha09] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/702dcdcf2c61b5d7c78a447563e34055/material-1.1.0-alpha09/AndroidManifest.xml:22:5-20
+MERGED from [androidx.biometric:biometric:1.0.0-beta01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/0245ec04926d1432edb17a7a9b16be6c/biometric-1.0.0-beta01/AndroidManifest.xml:27:5-31:19
+MERGED from [androidx.biometric:biometric:1.0.0-beta01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/0245ec04926d1432edb17a7a9b16be6c/biometric-1.0.0-beta01/AndroidManifest.xml:27:5-31:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/6102808b9ba7d8939166ec116dd388e7/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/6102808b9ba7d8939166ec116dd388e7/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5ac0712be341d4152d4832c4bf6c5890/lifecycle-extensions-2.2.0-alpha02/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5ac0712be341d4152d4832c4bf6c5890/lifecycle-extensions-2.2.0-alpha02/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:29:5-123:19
+MERGED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:29:5-123:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/ba0e458879e73fd6ba3abc109dfa10b5/lifecycle-process-2.2.0-alpha02/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/ba0e458879e73fd6ba3abc109dfa10b5/lifecycle-process-2.2.0-alpha02/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.core:core:1.1.0-rc03] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/b39b495825343ffa5c14b40cb103c24f/core-1.1.0-rc03/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0-rc03] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/b39b495825343ffa5c14b40cb103c24f/core-1.1.0-rc03/AndroidManifest.xml:24:5-89
+MERGED from [androidx.room:room-runtime:2.2.0-alpha01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5af2ef4df35e4873748260c14647ef2e/room-runtime-2.2.0-alpha01/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.room:room-runtime:2.2.0-alpha01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5af2ef4df35e4873748260c14647ef2e/room-runtime-2.2.0-alpha01/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/67c883568d1fe6725642d1cded7759e4/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/67c883568d1fe6725642d1cded7759e4/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0-rc03] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/b39b495825343ffa5c14b40cb103c24f/core-1.1.0-rc03/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:16:9-41
+	tools:ignore
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:20:9-48
+	android:roundIcon
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:17:9-59
+	android:icon
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:15:9-48
+	android:allowBackup
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:14:9-36
+	android:theme
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:19:9-48
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:13:9-68
+activity#io.horizontalsystems.bitstashwallet.modules.launcher.LauncherActivity
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:21:9-29:20
+	android:screenOrientation
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:23:13-49
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:22:13-97
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:27:27-74
+activity#io.horizontalsystems.bitstashwallet.modules.restore.options.RestoreOptionsActivity
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:30:9-32:52
+	android:screenOrientation
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:32:13-49
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:31:13-110
+activity#io.horizontalsystems.bitstashwallet.modules.backup.BackupActivity
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:33:9-36:58
+	android:screenOrientation
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:35:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:36:13-55
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:34:13-93
+activity#io.horizontalsystems.bitstashwallet.modules.backup.words.BackupWordsActivity
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:37:9-40:58
+	android:screenOrientation
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:39:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:40:13-55
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:38:13-104
+activity#io.horizontalsystems.bitstashwallet.modules.createwallet.CreateWalletActivity
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:41:9-43:52
+	android:screenOrientation
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:43:13-49
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:42:13-105
+activity#io.horizontalsystems.bitstashwallet.modules.main.MainActivity
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:44:9-47:63
+	android:screenOrientation
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:46:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:47:13-60
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:45:13-89
+activity#io.horizontalsystems.bitstashwallet.modules.send.SendActivity
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:48:9-51:70
+	android:screenOrientation
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:50:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:51:13-68
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:49:13-89
+activity#io.horizontalsystems.bitstashwallet.modules.restore.words.RestoreWordsActivity
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:52:9-54:52
+	android:screenOrientation
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:54:13-49
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:53:13-106
+activity#io.horizontalsystems.bitstashwallet.modules.qrscanner.QRScannerActivity
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:55:9-57:52
+	android:screenOrientation
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:57:13-49
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:56:13-99
+activity#io.horizontalsystems.bitstashwallet.modules.fulltransactioninfo.views.FullTransactionInfoActivity
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:58:9-60:52
+	android:screenOrientation
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:60:13-49
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:59:13-125
+activity#io.horizontalsystems.bitstashwallet.modules.fulltransactioninfo.dataprovider.DataProviderSettingsActivity
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:61:9-63:52
+	android:screenOrientation
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:63:13-49
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:62:13-133
+activity#io.horizontalsystems.bitstashwallet.modules.settings.language.LanguageSettingsActivity
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:64:9-66:52
+	android:screenOrientation
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:66:13-49
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:65:13-114
+activity#io.horizontalsystems.bitstashwallet.modules.settings.security.SecuritySettingsActivity
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:67:9-69:52
+	android:screenOrientation
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:69:13-49
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:68:13-114
+activity#io.horizontalsystems.bitstashwallet.modules.settings.AboutSettingsActivity
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:70:9-72:52
+	android:screenOrientation
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:72:13-49
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:71:13-102
+activity#io.horizontalsystems.bitstashwallet.modules.notifications.NotificationsActivity
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:73:9-75:52
+	android:screenOrientation
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:75:13-49
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:74:13-107
+activity#io.horizontalsystems.bitstashwallet.modules.reportproblem.ReportProblemActivity
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:76:9-78:52
+	android:screenOrientation
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:78:13-49
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:77:13-107
+activity#io.horizontalsystems.bitstashwallet.modules.lockscreen.LockScreenActivity
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:79:9-81:52
+	android:screenOrientation
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:81:13-49
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:80:13-101
+activity#io.horizontalsystems.bitstashwallet.modules.pin.PinActivity
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:82:9-84:52
+	android:screenOrientation
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:84:13-49
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:83:13-87
+activity#io.horizontalsystems.bitstashwallet.modules.settings.basecurrency.BaseCurrencySettingsActivity
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:85:9-87:52
+	android:screenOrientation
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:87:13-49
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:86:13-122
+activity#io.horizontalsystems.bitstashwallet.modules.managecoins.views.ManageWalletsActivity
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:88:9-90:52
+	android:screenOrientation
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:90:13-49
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:89:13-111
+activity#io.horizontalsystems.bitstashwallet.modules.settings.managekeys.views.ManageKeysActivity
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:91:9-93:52
+	android:screenOrientation
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:93:13-49
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:92:13-116
+activity#io.horizontalsystems.bitstashwallet.modules.restore.RestoreActivity
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:94:9-96:52
+	android:screenOrientation
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:96:13-49
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:95:13-95
+activity#io.horizontalsystems.bitstashwallet.modules.welcome.WelcomeActivity
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:97:9-99:52
+	android:screenOrientation
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:99:13-49
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:98:13-95
+activity#io.horizontalsystems.bitstashwallet.modules.restore.eos.RestoreEosActivity
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:100:9-102:52
+	android:screenOrientation
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:102:13-49
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:101:13-102
+activity#io.horizontalsystems.bitstashwallet.modules.keystore.KeyStoreActivity
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:103:9-105:52
+	android:screenOrientation
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:105:13-49
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:104:13-97
+activity#io.horizontalsystems.bitstashwallet.modules.backup.eos.BackupEosActivity
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:106:9-108:52
+	android:screenOrientation
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:108:13-49
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:107:13-100
+meta-data#preloaded_fonts
+ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:110:9-112:57
+	android:resource
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:112:13-54
+	android:name
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml:111:13-43
+uses-sdk
+INJECTED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml
+INJECTED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml
+MERGED from [com.aurelhubert:ahbottomnavigation:2.3.4] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/ce0707c382bc82c16e9dcc137787fe67/ahbottomnavigation-2.3.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.3.4] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/ce0707c382bc82c16e9dcc137787fe67/ahbottomnavigation-2.3.4/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/54c1b16019f1ccf2d95e2f768f495e66/anko-commons-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/54c1b16019f1ccf2d95e2f768f495e66/anko-commons-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.horizontalsystems:blockchain-fee-rate-kit-android:15df939] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/d29908df1e143cb6512db0ac7e87def5/blockchain-fee-rate-kit-android-15df939/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems:blockchain-fee-rate-kit-android:15df939] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/d29908df1e143cb6512db0ac7e87def5/blockchain-fee-rate-kit-android-15df939/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems:binance-chain-kit-android:d33bda5] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/3a491322fde33d929828e7274cdd4cb6/binance-chain-kit-android-d33bda5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems:binance-chain-kit-android:d33bda5] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/3a491322fde33d929828e7274cdd4cb6/binance-chain-kit-android-d33bda5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems:eos-kit-android:42fbfd5] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/d39ce27af31e06f2ba3f2990e00b27de/eos-kit-android-42fbfd5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems:eos-kit-android:42fbfd5] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/d39ce27af31e06f2ba3f2990e00b27de/eos-kit-android-42fbfd5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.ethereum-kit-android:erc20kit:db6f1a2] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/b3bc9e0e63163b397e6c5d6570d23900/jetified-erc20kit-db6f1a2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.ethereum-kit-android:erc20kit:db6f1a2] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/b3bc9e0e63163b397e6c5d6570d23900/jetified-erc20kit-db6f1a2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.ethereum-kit-android:ethereumkit:db6f1a2] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/9b1c3e5dc28ad8eab70a5d5216197391/jetified-ethereumkit-db6f1a2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.ethereum-kit-android:ethereumkit:db6f1a2] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/9b1c3e5dc28ad8eab70a5d5216197391/jetified-ethereumkit-db6f1a2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:bitcoincashkit:53e09a5] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c50af3ecd1f851236c39b830d4b054e7/bitcoincashkit-53e09a5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:bitcoincashkit:53e09a5] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c50af3ecd1f851236c39b830d4b054e7/bitcoincashkit-53e09a5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:bitcoinkit:53e09a5] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/8502d09ccfe33ba83fcc1aa88a391a50/bitcoinkit-53e09a5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:bitcoinkit:53e09a5] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/8502d09ccfe33ba83fcc1aa88a391a50/bitcoinkit-53e09a5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:dashkit:53e09a5] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c7ae5c91b5bd1701d9fdd8975e196128/jetified-dashkit-53e09a5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:dashkit:53e09a5] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c7ae5c91b5bd1701d9fdd8975e196128/jetified-dashkit-53e09a5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:bitcoincore:53e09a5] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/8a9daccdc3bba617bf062e09b252eabb/jetified-bitcoincore-53e09a5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:bitcoincore:53e09a5] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/8a9daccdc3bba617bf062e09b252eabb/jetified-bitcoincore-53e09a5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0-alpha09] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/702dcdcf2c61b5d7c78a447563e34055/material-1.1.0-alpha09/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha09] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/702dcdcf2c61b5d7c78a447563e34055/material-1.1.0-alpha09/AndroidManifest.xml:20:5-44
+MERGED from [androidx.biometric:biometric:1.0.0-beta01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/0245ec04926d1432edb17a7a9b16be6c/biometric-1.0.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.biometric:biometric:1.0.0-beta01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/0245ec04926d1432edb17a7a9b16be6c/biometric-1.0.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [one.block:eosiojavaandroidabieosserializationprovider:0.1.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/d4cdb26d8963c46650882d10d404449f/eosiojavaandroidabieosserializationprovider-0.1.0/AndroidManifest.xml:6:5-8:41
+MERGED from [one.block:eosiojavaandroidabieosserializationprovider:0.1.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/d4cdb26d8963c46650882d10d404449f/eosiojavaandroidabieosserializationprovider-0.1.0/AndroidManifest.xml:6:5-8:41
+MERGED from [one.block:eosiojavarpcprovider:0.1.1] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/d293391410a97716274a4e35c00a77e0/eosiojavarpcprovider-0.1.1/AndroidManifest.xml:6:5-8:41
+MERGED from [one.block:eosiojavarpcprovider:0.1.1] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/d293391410a97716274a4e35c00a77e0/eosiojavarpcprovider-0.1.1/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/3d1a9961c8a95c18be1ae51ff17a3b54/appcompat-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/3d1a9961c8a95c18be1ae51ff17a3b54/appcompat-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/6102808b9ba7d8939166ec116dd388e7/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/6102808b9ba7d8939166ec116dd388e7/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5ac0712be341d4152d4832c4bf6c5890/lifecycle-extensions-2.2.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5ac0712be341d4152d4832c4bf6c5890/lifecycle-extensions-2.2.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/828fd6090e4b4f7e6e519ac1a1c11984/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/828fd6090e4b4f7e6e519ac1a1c11984/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/49903917106a5389d6c9cce311d38f81/viewpager2-1.0.0-beta02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/49903917106a5389d6c9cce311d38f81/viewpager2-1.0.0-beta02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.0-alpha01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/27daee19ff42b23c8ec76aca56d225c3/fragment-1.2.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.0-alpha01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/27daee19ff42b23c8ec76aca56d225c3/fragment-1.2.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-rxjava2:2.2.0-alpha01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/4f70d6145832b02bf53b896594dd6b74/room-rxjava2-2.2.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-rxjava2:2.2.0-alpha01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/4f70d6145832b02bf53b896594dd6b74/room-rxjava2-2.2.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5fe870666b6d54a2ab33f0f3a2bd98ce/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5fe870666b6d54a2ab33f0f3a2bd98ce/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/b695b2a56e6a5b6181b3621095c17e85/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/b695b2a56e6a5b6181b3621095c17e85/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/6584f13befaca8ea228d4715e2dc3ad7/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/6584f13befaca8ea228d4715e2dc3ad7/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0-alpha01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/adc7fdf1229885988fbce7a475e1d74e/activity-1.1.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0-alpha01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/adc7fdf1229885988fbce7a475e1d74e/activity-1.1.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/670faebf7cafa7eaa9eb2eb632de75d9/lifecycle-viewmodel-2.2.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/670faebf7cafa7eaa9eb2eb632de75d9/lifecycle-viewmodel-2.2.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/693c8bed8dcaf08d93300fc0cc32d842/lifecycle-reactivestreams-2.2.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/693c8bed8dcaf08d93300fc0cc32d842/lifecycle-reactivestreams-2.2.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/44be9e544dfe12b92ef29648dcd83eda/work-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/44be9e544dfe12b92ef29648dcd83eda/work-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-rxjava2:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/37cf18e1fed4dda9cc3100b47794629f/work-rxjava2-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-rxjava2:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/37cf18e1fed4dda9cc3100b47794629f/work-rxjava2-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/acdbdb21673c8967d101f92b87035e8d/lifecycle-livedata-2.2.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/acdbdb21673c8967d101f92b87035e8d/lifecycle-livedata-2.2.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/ba0e458879e73fd6ba3abc109dfa10b5/lifecycle-process-2.2.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/ba0e458879e73fd6ba3abc109dfa10b5/lifecycle-process-2.2.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/f8f9b6fdcec16008bb1a21510f044026/lifecycle-service-2.2.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/f8f9b6fdcec16008bb1a21510f044026/lifecycle-service-2.2.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/01b1a62468323e316b2867bc5d2b13a7/recyclerview-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/01b1a62468323e316b2867bc5d2b13a7/recyclerview-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/9029f6e178463bd6d68d21d3394970b6/appcompat-resources-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/9029f6e178463bd6d68d21d3394970b6/appcompat-resources-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/0e7c68274fb8b28cc0414eb5b896e448/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/0e7c68274fb8b28cc0414eb5b896e448/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/0d1108e14fd6919c5fdb8be3f41c749c/coordinatorlayout-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/0d1108e14fd6919c5fdb8be3f41c749c/coordinatorlayout-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/af36f58cd0e158191b16f152cd9384fa/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/af36f58cd0e158191b16f152cd9384fa/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/f90f0520ace61e57407c62d05c7599e6/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/f90f0520ace61e57407c62d05c7599e6/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/03a5f07200efd577bbc8803fd8b08cb6/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/03a5f07200efd577bbc8803fd8b08cb6/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/ea33cbe4fe3a49cf611050916879bfd8/transition-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/ea33cbe4fe3a49cf611050916879bfd8/transition-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/e3f9525157dd5c329d8ba2cfa26a1f5f/vectordrawable-animated-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/e3f9525157dd5c329d8ba2cfa26a1f5f/vectordrawable-animated-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/8425a2704df457c1d9cb8f09c0e21fe4/vectordrawable-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/8425a2704df457c1d9cb8f09c0e21fe4/vectordrawable-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/1822ddf8bba76c34a8d099a80b65233c/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/1822ddf8bba76c34a8d099a80b65233c/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a6d49c8642ad63e674bb294866a6f37f/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a6d49c8642ad63e674bb294866a6f37f/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/159d6bf692454e275ce117e5745773ee/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/159d6bf692454e275ce117e5745773ee/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-rc03] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/b39b495825343ffa5c14b40cb103c24f/core-1.1.0-rc03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0-rc03] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/b39b495825343ffa5c14b40cb103c24f/core-1.1.0-rc03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/fc2f7c2a221d4f008c02d84c5001c352/lifecycle-runtime-2.2.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/fc2f7c2a221d4f008c02d84c5001c352/lifecycle-runtime-2.2.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.0-alpha01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5af2ef4df35e4873748260c14647ef2e/room-runtime-2.2.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.0-alpha01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5af2ef4df35e4873748260c14647ef2e/room-runtime-2.2.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/fadc3fe412e8ae822765ea7ce6dd3e33/rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/fadc3fe412e8ae822765ea7ce6dd3e33/rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [me.relex:circleindicator:2.1.4] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/49d41f99030cd8875c56aa81bdcde42d/circleindicator-2.1.4/AndroidManifest.xml:7:5-9:41
+MERGED from [me.relex:circleindicator:2.1.4] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/49d41f99030cd8875c56aa81bdcde42d/circleindicator-2.1.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.squareup.leakcanary:leakcanary-android-no-op:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/9a37d4993b5421c815d31d794bb476c1/jetified-leakcanary-android-no-op-1.6.3/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-no-op:1.6.3] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/9a37d4993b5421c815d31d794bb476c1/jetified-leakcanary-android-no-op-1.6.3/AndroidManifest.xml:20:5-44
+MERGED from [org.jetbrains.anko:commons-base:0.10.8] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/e6d909c381166d2f4b0bc6d0e52e7ada/jetified-commons-base-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:commons-base:0.10.8] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/e6d909c381166d2f4b0bc6d0e52e7ada/jetified-commons-base-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/9cba381e8055641c4dc40bc11abe10f8/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/9cba381e8055641c4dc40bc11abe10f8/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/2a51d0d286fef344706b0cbe0d6d4a90/lifecycle-livedata-core-2.2.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/2a51d0d286fef344706b0cbe0d6d4a90/lifecycle-livedata-core-2.2.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0-rc01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/4b7449072d66ad9358d58dda618f0898/core-runtime-2.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0-rc01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/4b7449072d66ad9358d58dda618f0898/core-runtime-2.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/b854df2ccbe7e33bbfc514de5d7a6845/savedstate-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/b854df2ccbe7e33bbfc514de5d7a6845/savedstate-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/ffe868ad401564312d2e6d49f210bd15/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/ffe868ad401564312d2e6d49f210bd15/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c8ce72e17bc646ec8811aa397c6a8f1a/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c8ce72e17bc646ec8811aa397c6a8f1a/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/58d88fd89258cdd691690d275e842715/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/58d88fd89258cdd691690d275e842715/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/67c883568d1fe6725642d1cded7759e4/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/67c883568d1fe6725642d1cded7759e4/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c3b3b4398b212a9d6db83cd6fa85e466/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c3b3b4398b212a9d6db83cd6fa85e466/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/8b23317537ebe90a2a229e676ad91caa/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/8b23317537ebe90a2a229e676ad91caa/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c2eebe165acf9442a84162aac830e07c/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c2eebe165acf9442a84162aac830e07c/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/2d0d7c2d9455c2e14c5e442172548106/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/2d0d7c2d9455c2e14c5e442172548106/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml
+INJECTED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/odapplications/Desktop/unstoppable-wallet-android-master/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:22:22-62
+uses-feature#android.hardware.camera
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:26:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:29:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:33:5-35:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:35:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:34:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:36:5-38:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:38:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:37:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:39:5-41:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:41:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:40:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:42:5-44:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:44:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:43:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:47:9-53:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:50:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:49:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:51:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:53:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:52:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/a2a96bc7da27231517333f6123eee1e2/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:48:13-74
+activity#androidx.biometric.DeviceCredentialHandlerActivity
+ADDED from [androidx.biometric:biometric:1.0.0-beta01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/0245ec04926d1432edb17a7a9b16be6c/biometric-1.0.0-beta01/AndroidManifest.xml:28:9-30:67
+	android:theme
+		ADDED from [androidx.biometric:biometric:1.0.0-beta01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/0245ec04926d1432edb17a7a9b16be6c/biometric-1.0.0-beta01/AndroidManifest.xml:30:13-64
+	android:name
+		ADDED from [androidx.biometric:biometric:1.0.0-beta01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/0245ec04926d1432edb17a7a9b16be6c/biometric-1.0.0-beta01/AndroidManifest.xml:29:13-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:25:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:27:22-78
+provider#androidx.work.impl.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:30:9-36:35
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:32:13-68
+	android:multiprocess
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:35:13-40
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:34:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:33:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:31:13-69
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:38:9-43:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:42:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:43:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:40:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:39:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:44:9-50:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:47:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:48:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:49:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:50:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:46:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:45:13-84
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:52:9-57:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:55:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:56:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:57:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:54:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:53:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:58:9-68:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:61:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:62:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:63:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:60:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:59:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:64:13-67:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:65:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:65:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:66:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:66:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:69:9-79:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:72:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:73:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:74:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:71:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:70:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:75:13-78:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:76:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:76:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:77:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:77:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:80:9-90:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:83:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:84:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:85:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:82:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:81:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:86:13-89:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:87:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:87:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:88:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:88:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:91:9-100:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:94:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:95:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:96:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:93:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:92:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:97:13-99:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:98:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:98:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:101:9-112:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:104:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:105:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:106:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:103:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:102:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:107:13-111:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:108:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:108:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:109:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:109:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:110:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:110:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:113:9-122:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:116:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:117:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:118:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:115:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:114:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:119:13-121:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:120:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.2.0] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/c5173a12cec7f2ddfbe8f9bfac8d8d50/work-runtime-2.2.0/AndroidManifest.xml:120:25-95
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/ba0e458879e73fd6ba3abc109dfa10b5/lifecycle-process-2.2.0-alpha02/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/ba0e458879e73fd6ba3abc109dfa10b5/lifecycle-process-2.2.0-alpha02/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/ba0e458879e73fd6ba3abc109dfa10b5/lifecycle-process-2.2.0-alpha02/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/ba0e458879e73fd6ba3abc109dfa10b5/lifecycle-process-2.2.0-alpha02/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0-alpha02] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/ba0e458879e73fd6ba3abc109dfa10b5/lifecycle-process-2.2.0-alpha02/AndroidManifest.xml:26:13-79
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.0-alpha01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5af2ef4df35e4873748260c14647ef2e/room-runtime-2.2.0-alpha01/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.0-alpha01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5af2ef4df35e4873748260c14647ef2e/room-runtime-2.2.0-alpha01/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.0-alpha01] /Users/odapplications/.gradle/caches/transforms-2/files-2.1/5af2ef4df35e4873748260c14647ef2e/room-runtime-2.2.0-alpha01/AndroidManifest.xml:26:13-74

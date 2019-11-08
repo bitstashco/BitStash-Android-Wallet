@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        app:elevation="0dp">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsingToolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/app_bar_height_tall"
+            app:collapsedTitleTextAppearance="@style/Title3"
+            app:elevation="0dp"
+            app:expandedTitleMarginBottom="16dp"
+            app:expandedTitleMarginStart="16dp"
+            app:expandedTitleTextAppearance="@style/Title2"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:layout_scrollFlags="scroll|enterAlways|snap"
+                app:title="@string/Settings_Title" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:clipToPadding="false">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <io.horizontalsystems.bitstashwallet.modules.settings.SettingsItemView
+                android:id="@+id/securityCenter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:setting_arrow="true"
+                app:setting_icon="@drawable/ic_security"
+                app:setting_title="@string/Settings_SecurityCenter" />
+
+            <io.horizontalsystems.bitstashwallet.modules.settings.SettingsItemView
+                android:id="@+id/manageCoins"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/securityCenter"
+                app:setting_arrow="true"
+                app:setting_icon="@drawable/ic_manage_coins"
+                app:setting_title="@string/Settings_ManageCoins" />
+
+            <View
+                android:id="@+id/bottomShade_1"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/steel_20"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/manageCoins" />
+
+            <io.horizontalsystems.bitstashwallet.modules.settings.SettingsItemView
+                android:id="@+id/notifications"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/manageCoins"
+                app:setting_arrow="true"
+                app:setting_icon="@drawable/ic_notification"
+                app:setting_title="@string/Settings_Notifications" />
+
+            <io.horizontalsystems.bitstashwallet.modules.settings.SettingsItemView
+                android:id="@+id/baseCurrency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/notifications"
+                app:setting_arrow="true"
+                app:setting_icon="@drawable/ic_currency"
+                app:setting_title="@string/Settings_BaseCurrency" />
+
+            <io.horizontalsystems.bitstashwallet.modules.settings.SettingsItemView
+                android:id="@+id/language"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/baseCurrency"
+                app:setting_arrow="true"
+                app:setting_icon="@drawable/ic_language"
+                app:setting_title="@string/Settings_Language" />
+
+            <io.horizontalsystems.bitstashwallet.modules.settings.SettingsItemView
+                android:id="@+id/lightMode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/language"
+                app:setting_icon="@drawable/ic_light_mode"
+                app:setting_title="@string/Settings_LightMode" />
+
+            <View
+                android:id="@+id/bottomShade_2"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/steel_20"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lightMode" />
+
+            <io.horizontalsystems.bitstashwallet.modules.settings.SettingsItemView
+                android:id="@+id/about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lightMode"
+                app:setting_arrow="true"
+                app:setting_icon="@drawable/ic_attention"
+                app:setting_title="@string/Settings_About" />
+
+            <io.horizontalsystems.bitstashwallet.modules.settings.SettingsItemView
+                android:id="@+id/shareApp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/about"
+                app:setting_icon="@drawable/ic_share"
+                app:setting_title="@string/Settings_ShareThisWallet" />
+
+            <io.horizontalsystems.bitstashwallet.modules.settings.SettingsItemView
+                android:id="@+id/report"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/shareApp"
+                app:setting_icon="@drawable/ic_report"
+                app:setting_title="@string/Settings_Report" />
+
+            <View
+                android:id="@+id/bottomShade_3"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/steel_20"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/report" />
+
+            <TextView
+                android:id="@+id/appName"
+                style="@style/Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:textAllCaps="true"
+                android:textColor="@color/grey"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/report"
+                tools:text="Wallet Bank 1.01" />
+
+            <View
+                android:id="@+id/lineView"
+                android:layout_width="0dp"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/grey"
+                app:layout_constraintEnd_toEndOf="@+id/appName"
+                app:layout_constraintStart_toStartOf="@+id/appName"
+                app:layout_constraintTop_toBottomOf="@+id/appName" />
+
+            <TextView
+                android:id="@+id/decentralizedAppBy"
+                style="@style/Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3.5dp"
+                android:text="@string/Settings_InfoSubtitle"
+                android:textColor="@color/grey"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lineView" />
+
+            <ImageView
+                android:id="@+id/companyLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26dp"
+                android:layout_marginBottom="42dp"
+                android:background="?android:selectableItemBackground"
+                android:padding="6dp"
+                android:src="@drawable/hs_center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/decentralizedAppBy" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
