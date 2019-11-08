@@ -5,7 +5,7 @@ package io.horizontalsystems.bitstashwallet;
 
 public final class BuildConfig {
   public static final boolean DEBUG = Boolean.parseBoolean("true");
-  public static final String APPLICATION_ID = "io.horizontalsystems.bankwallet.dev.master";
+  public static final String APPLICATION_ID = "io.horizontalsystems.bitstashwallet.dev.master";
   public static final String BUILD_TYPE = "debug";
   public static final String FLAVOR = "devMainnetMaster";
   public static final int VERSION_CODE = 1;
