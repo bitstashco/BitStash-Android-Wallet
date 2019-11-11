@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <io.horizontalsystems.bitstashwallet.ui.extensions.ShadowlessToolbarView
+    <app.odapplications.bitstashwallet.ui.extensions.ShadowlessToolbarView
         android:id="@+id/shadowlessToolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -12,7 +12,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <io.horizontalsystems.bitstashwallet.ui.extensions.MultipleInputEditTextView
+    <app.odapplications.bitstashwallet.ui.extensions.MultipleInputEditTextView
         android:id="@+id/eosAccount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,7 +24,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/shadowlessToolbar" />
 
-    <io.horizontalsystems.bitstashwallet.ui.extensions.MultipleInputEditTextView
+    <app.odapplications.bitstashwallet.ui.extensions.MultipleInputEditTextView
         android:id="@+id/eosActivePrivateKey"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

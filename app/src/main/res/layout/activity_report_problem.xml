@@ -7,7 +7,7 @@
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent">
 
-    <io.horizontalsystems.bitstashwallet.ui.extensions.ShadowlessToolbarView
+    <app.odapplications.bitstashwallet.ui.extensions.ShadowlessToolbarView
         android:id="@+id/shadowlessToolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,7 +15,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <io.horizontalsystems.bitstashwallet.modules.settings.MenuItemBig
+    <app.odapplications.bitstashwallet.modules.settings.MenuItemBig
         android:id="@+id/mail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -26,7 +26,7 @@
         app:icon="@drawable/ic_email"
         app:layout_constraintTop_toBottomOf="@+id/shadowlessToolbar" />
 
-    <io.horizontalsystems.bitstashwallet.modules.settings.MenuItemBig
+    <app.odapplications.bitstashwallet.modules.settings.MenuItemBig
         android:id="@+id/telegram"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

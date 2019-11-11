@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="io.horizontalsystems.bitstashwallet">
+    package="app.odapplications.bitstashwallet">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -10,7 +10,7 @@
     <uses-permission android:name="android.permission.USE_FINGERPRINT" />
 
     <application
-        android:name="io.horizontalsystems.bitstashwallet.core.App"
+        android:name="app.odapplications.bitstashwallet.core.App"
         android:allowBackup="false"
         android:icon="@mipmap/bitcoin_launcher"
         android:label="@string/App_Name"
@@ -19,7 +19,7 @@
         android:theme="@style/DarkModeAppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name="io.horizontalsystems.bitstashwallet.modules.launcher.LauncherActivity"
+            android:name="app.odapplications.bitstashwallet.modules.launcher.LauncherActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,83 +28,83 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="io.horizontalsystems.bitstashwallet.modules.restore.options.RestoreOptionsActivity"
+            android:name="app.odapplications.bitstashwallet.modules.restore.options.RestoreOptionsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="io.horizontalsystems.bitstashwallet.modules.backup.BackupActivity"
+            android:name="app.odapplications.bitstashwallet.modules.backup.BackupActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="io.horizontalsystems.bitstashwallet.modules.backup.words.BackupWordsActivity"
+            android:name="app.odapplications.bitstashwallet.modules.backup.words.BackupWordsActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="io.horizontalsystems.bitstashwallet.modules.createwallet.CreateWalletActivity"
+            android:name="app.odapplications.bitstashwallet.modules.createwallet.CreateWalletActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="io.horizontalsystems.bitstashwallet.modules.main.MainActivity"
+            android:name="app.odapplications.bitstashwallet.modules.main.MainActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="io.horizontalsystems.bitstashwallet.modules.send.SendActivity"
+            android:name="app.odapplications.bitstashwallet.modules.send.SendActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateVisible|adjustResize"/>
         <activity
-            android:name="io.horizontalsystems.bitstashwallet.modules.restore.words.RestoreWordsActivity"
+            android:name="app.odapplications.bitstashwallet.modules.restore.words.RestoreWordsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="io.horizontalsystems.bitstashwallet.modules.qrscanner.QRScannerActivity"
+            android:name="app.odapplications.bitstashwallet.modules.qrscanner.QRScannerActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="io.horizontalsystems.bitstashwallet.modules.fulltransactioninfo.views.FullTransactionInfoActivity"
+            android:name="app.odapplications.bitstashwallet.modules.fulltransactioninfo.views.FullTransactionInfoActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="io.horizontalsystems.bitstashwallet.modules.fulltransactioninfo.dataprovider.DataProviderSettingsActivity"
+            android:name="app.odapplications.bitstashwallet.modules.fulltransactioninfo.dataprovider.DataProviderSettingsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="io.horizontalsystems.bitstashwallet.modules.settings.language.LanguageSettingsActivity"
+            android:name="app.odapplications.bitstashwallet.modules.settings.language.LanguageSettingsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="io.horizontalsystems.bitstashwallet.modules.settings.security.SecuritySettingsActivity"
+            android:name="app.odapplications.bitstashwallet.modules.settings.security.SecuritySettingsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="io.horizontalsystems.bitstashwallet.modules.settings.AboutSettingsActivity"
+            android:name="app.odapplications.bitstashwallet.modules.settings.AboutSettingsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="io.horizontalsystems.bitstashwallet.modules.notifications.NotificationsActivity"
+            android:name="app.odapplications.bitstashwallet.modules.notifications.NotificationsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="io.horizontalsystems.bitstashwallet.modules.reportproblem.ReportProblemActivity"
+            android:name="app.odapplications.bitstashwallet.modules.reportproblem.ReportProblemActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="io.horizontalsystems.bitstashwallet.modules.lockscreen.LockScreenActivity"
+            android:name="app.odapplications.bitstashwallet.modules.lockscreen.LockScreenActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="io.horizontalsystems.bitstashwallet.modules.pin.PinActivity"
+            android:name="app.odapplications.bitstashwallet.modules.pin.PinActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="io.horizontalsystems.bitstashwallet.modules.settings.basecurrency.BaseCurrencySettingsActivity"
+            android:name="app.odapplications.bitstashwallet.modules.settings.basecurrency.BaseCurrencySettingsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="io.horizontalsystems.bitstashwallet.modules.managecoins.views.ManageWalletsActivity"
+            android:name="app.odapplications.bitstashwallet.modules.managecoins.views.ManageWalletsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="io.horizontalsystems.bitstashwallet.modules.settings.managekeys.views.ManageKeysActivity"
+            android:name="app.odapplications.bitstashwallet.modules.settings.managekeys.views.ManageKeysActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="io.horizontalsystems.bitstashwallet.modules.restore.RestoreActivity"
+            android:name="app.odapplications.bitstashwallet.modules.restore.RestoreActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="io.horizontalsystems.bitstashwallet.modules.welcome.WelcomeActivity"
+            android:name="app.odapplications.bitstashwallet.modules.welcome.WelcomeActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="io.horizontalsystems.bitstashwallet.modules.restore.eos.RestoreEosActivity"
+            android:name="app.odapplications.bitstashwallet.modules.restore.eos.RestoreEosActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="io.horizontalsystems.bitstashwallet.modules.keystore.KeyStoreActivity"
+            android:name="app.odapplications.bitstashwallet.modules.keystore.KeyStoreActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="io.horizontalsystems.bitstashwallet.modules.backup.eos.BackupEosActivity"
+            android:name="app.odapplications.bitstashwallet.modules.backup.eos.BackupEosActivity"
             android:screenOrientation="portrait" />
 
         <meta-data

@@ -34,7 +34,7 @@
         app:layout_behavior="@string/bottom_sheet_behavior"
         >
 
-        <io.horizontalsystems.bitstashwallet.modules.receive.ReceiveView
+        <app.odapplications.bitstashwallet.modules.receive.ReceiveView
             android:id="@+id/receiveView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -52,7 +52,7 @@
         app:layout_behavior="@string/bottom_sheet_behavior"
         >
 
-        <io.horizontalsystems.bitstashwallet.modules.transactions.transactionInfo.TransactionInfoView
+        <app.odapplications.bitstashwallet.modules.transactions.transactionInfo.TransactionInfoView
             android:id="@+id/transactionInfoView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

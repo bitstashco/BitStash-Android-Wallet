@@ -14,7 +14,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <io.horizontalsystems.bitstashwallet.ui.extensions.CoinIconView
+    <app.odapplications.bitstashwallet.ui.extensions.CoinIconView
         android:id="@+id/cellIcon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,14 +24,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <io.horizontalsystems.bitstashwallet.components.CellLeftView
+    <app.odapplications.bitstashwallet.components.CellLeftView
         android:id="@+id/cellLeft"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         app:layout_constraintEnd_toStartOf="@+id/cellRight"
         app:layout_constraintStart_toEndOf="@+id/cellIcon" />
 
-    <io.horizontalsystems.bitstashwallet.components.CellRightView
+    <app.odapplications.bitstashwallet.components.CellRightView
         android:id="@+id/cellRight"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"

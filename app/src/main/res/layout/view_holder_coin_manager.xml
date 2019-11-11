@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <io.horizontalsystems.bitstashwallet.ui.extensions.CoinIconView
+    <app.odapplications.bitstashwallet.ui.extensions.CoinIconView
         android:id="@+id/coinIcon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

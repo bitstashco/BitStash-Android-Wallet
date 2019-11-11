@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <io.horizontalsystems.bitstashwallet.ui.extensions.ShadowlessToolbarView
+    <app.odapplications.bitstashwallet.ui.extensions.ShadowlessToolbarView
         android:id="@+id/shadowlessToolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -25,14 +25,14 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <io.horizontalsystems.bitstashwallet.components.CellView
+            <app.odapplications.bitstashwallet.components.CellView
                 android:id="@+id/bip44"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 app:subtitle="@string/CoinOption_bip44"
                 app:title="@string/CoinOption_BeforeNovember" />
 
-            <io.horizontalsystems.bitstashwallet.components.CellView
+            <app.odapplications.bitstashwallet.components.CellView
                 android:id="@+id/bip49"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
@@ -49,7 +49,7 @@
                 android:text="@string/CoinOption_TimePeriod"
                 android:textColor="@color/grey" />
 
-            <io.horizontalsystems.bitstashwallet.components.CellView
+            <app.odapplications.bitstashwallet.components.CellView
                 android:id="@+id/fastSync"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
@@ -57,7 +57,7 @@
                 app:subtitle="@string/CoinOption_Recommended"
                 app:title="@string/CoinOption_Fast" />
 
-            <io.horizontalsystems.bitstashwallet.components.CellView
+            <app.odapplications.bitstashwallet.components.CellView
                 android:id="@+id/slowSync"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"

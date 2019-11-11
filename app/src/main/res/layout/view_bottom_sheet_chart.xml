@@ -19,7 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <io.horizontalsystems.bitstashwallet.ui.extensions.CoinIconView
+    <app.odapplications.bitstashwallet.ui.extensions.CoinIconView
         android:id="@+id/chartCoinIcon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -355,13 +355,13 @@
             android:gravity="center"
             android:textColor="@color/red_d" />
 
-        <io.horizontalsystems.bitstashwallet.lib.chartview.ChartIndicator
+        <app.odapplications.bitstashwallet.lib.chartview.ChartIndicator
             android:id="@+id/chartViewIndicator"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:visibility="invisible" />
 
-        <io.horizontalsystems.bitstashwallet.lib.chartview.ChartView
+        <app.odapplications.bitstashwallet.lib.chartview.ChartView
             android:id="@+id/chartView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

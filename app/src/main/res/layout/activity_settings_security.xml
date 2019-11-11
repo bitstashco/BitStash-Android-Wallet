@@ -6,7 +6,7 @@
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent">
 
-    <io.horizontalsystems.bitstashwallet.ui.extensions.ShadowlessToolbarView
+    <app.odapplications.bitstashwallet.ui.extensions.ShadowlessToolbarView
         android:id="@+id/shadowlessToolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <io.horizontalsystems.bitstashwallet.modules.settings.SettingsItemView
+            <app.odapplications.bitstashwallet.modules.settings.SettingsItemView
                 android:id="@+id/manageKeys"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/manageKeys" />
 
-            <io.horizontalsystems.bitstashwallet.modules.settings.SettingsItemView
+            <app.odapplications.bitstashwallet.modules.settings.SettingsItemView
                 android:id="@+id/enablePin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
                 app:setting_icon="@drawable/ic_passcode"
                 app:setting_title="@string/SettingsSecurity_EnablePin" />
 
-            <io.horizontalsystems.bitstashwallet.modules.settings.SettingsItemView
+            <app.odapplications.bitstashwallet.modules.settings.SettingsItemView
                 android:id="@+id/changePin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -67,7 +67,7 @@
                 app:setting_arrow="true"
                 app:setting_title="@string/SettingsSecurity_EditPin" />
 
-            <io.horizontalsystems.bitstashwallet.modules.settings.SettingsItemView
+            <app.odapplications.bitstashwallet.modules.settings.SettingsItemView
                 android:id="@+id/fingerprint"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

@@ -37,7 +37,7 @@
         app:layout_constraintTop_toTopOf="@+id/directionIcon"
         tools:text="Jun 3" />
 
-    <io.horizontalsystems.bitstashwallet.modules.transactions.TransactionStatusWithTimeView
+    <app.odapplications.bitstashwallet.modules.transactions.TransactionStatusWithTimeView
         android:id="@+id/txStatusWithTimeView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -67,7 +67,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:text="June 6, 2019, 15:02" />
 
-    <io.horizontalsystems.bitstashwallet.modules.transactions.transactionInfo.TransactionInfoStatusView
+    <app.odapplications.bitstashwallet.modules.transactions.transactionInfo.TransactionInfoStatusView
         android:id="@+id/transactionStatusView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <io.horizontalsystems.bitstashwallet.ui.extensions.ShadowlessToolbarView
+        <app.odapplications.bitstashwallet.ui.extensions.ShadowlessToolbarView
             android:id="@+id/shadowlessToolbar"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
