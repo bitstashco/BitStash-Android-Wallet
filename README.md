@@ -5,7 +5,7 @@ The BitStash Wallet is a dedicated cryptocurrency wallet that can be installed o
 
 Want to test the mobile application on your real device? Download and install the BitStash Wallet for Android below.
 <br/><br/>
-<img src="images/google-play-badge.png" title="Download & Install the BitStash Wallet for Android Devices on Google Play" width="180px" align="left"/>
+<a href="https://play.google.com/store/apps/details?id=app.odapplications.bitstashwallet" target="_blank"><img src="images/google-play-badge.png" title="Download & Install the BitStash Wallet for Android Devices on Google Play" width="180px" align="left"/>
 <br/><br/><br/><br/>
 
 ## Preview Images
@@ -40,7 +40,7 @@ Q: Is the token ERC-20, BEP-20, or an EOS Token?<br/>
 A: ERC-20 / BEP-20 / EOS
 
 Complete the following format with your token information. (Name -> Ticker -> Decimal -> Address)<br/>
-You can reference <a href="app/src/main/java/io/horizontalsystems/bitstashwallet/core/managers/AppConfigProvider.kt">token list file</a> for more information.
+You can reference <a href="app/src/main/java/app/odapplications/bitstashwallet/core/managers/AppConfigProvider.kt">token list file</a> for more information.
 
 ERC-20 Tokens<br/>
 Coin("BitStash", "STASH", 18, CoinType.Erc20("0x965f109d31ccb77005858defae0ebaf7b4381652"))
